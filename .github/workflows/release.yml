@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "v*.*.*"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -16,32 +17,55 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Validate tag and version.txt
+      - name: Resolve and validate version
+        id: version
         shell: bash
         run: |
           set -euo pipefail
-          TAG="${GITHUB_REF_NAME}"
-          TAG_VERSION="${TAG#v}"
+
           FILE_VERSION="$(tr -d '\r\n[:space:]' < version.txt)"
-
-          echo "Tag version:  $TAG_VERSION"
-          echo "Theme version: $FILE_VERSION"
-
-          if [[ "$TAG_VERSION" != "$FILE_VERSION" ]]; then
-            echo "::error::version.txt ($FILE_VERSION) does not match tag ($TAG_VERSION)."
+          if [[ -z "$FILE_VERSION" ]]; then
+            echo "::error::version.txt is empty."
             exit 1
           fi
 
-      - name: Validate required theme files
+          if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
+            TAG="${GITHUB_REF_NAME}"
+            TAG_VERSION="${TAG#v}"
+
+            if [[ "$TAG_VERSION" != "$FILE_VERSION" ]]; then
+              echo "::error::version.txt ($FILE_VERSION) does not match tag ($TAG_VERSION)."
+              exit 1
+            fi
+          else
+            TAG="v${FILE_VERSION}"
+          fi
+
+          echo "version=$FILE_VERSION" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "Version: $FILE_VERSION"
+          echo "Release tag: $TAG"
+
+      - name: Validate required files
         shell: bash
         run: |
           set -euo pipefail
-          test -f info.xml
-          test -f icon.png
-          test -f version.txt
-          test -d sprites
-          test -d Strings
-          test -d theme
+
+          for f in icon.png info.xml version.txt; do
+            test -f "$f" || { echo "::error::Missing theme file: $f"; exit 1; }
+          done
+
+          for d in sprites Strings theme; do
+            test -d "$d" || { echo "::error::Missing theme directory: $d"; exit 1; }
+          done
+
+          for f in \
+            updater/Install-Updater.bat \
+            updater/AlyArchetype-Updater.bat \
+            updater/AlyArchetype.ico
+          do
+            test -f "$f" || { echo "::error::Missing updater file: $f"; exit 1; }
+          done
 
       - name: Build AlyArchetype.zip
         shell: bash
@@ -49,46 +73,60 @@ jobs:
           set -euo pipefail
           mkdir -p dist/theme-package
 
-          cp -a sprites dist/theme-package/
-          cp -a Strings dist/theme-package/
-          cp -a theme dist/theme-package/
+          cp -a sprites Strings theme dist/theme-package/
           cp icon.png info.xml version.txt dist/theme-package/
 
-          cd dist/theme-package
-          zip -r ../AlyArchetype.zip .
-          cd ../..
+          (
+            cd dist/theme-package
+            zip -r ../AlyArchetype.zip .
+          )
 
-          unzip -l dist/AlyArchetype.zip | grep -q 'info.xml'
-          unzip -l dist/AlyArchetype.zip | grep -q 'version.txt'
+          unzip -Z1 dist/AlyArchetype.zip | grep -Fxq "info.xml"
+          unzip -Z1 dist/AlyArchetype.zip | grep -Fxq "version.txt"
 
-      - name: Build updater package
+          ZIP_VERSION="$(unzip -p dist/AlyArchetype.zip version.txt | tr -d '\r\n[:space:]')"
+          if [[ "$ZIP_VERSION" != "${{ steps.version.outputs.version }}" ]]; then
+            echo "::error::Built ZIP version ($ZIP_VERSION) is incorrect."
+            exit 1
+          fi
+
+      - name: Build AlyArchetype-Updater.zip
         shell: bash
         run: |
           set -euo pipefail
-
-          for f in \
-            updater/Install-Updater.bat \
-            updater/AlyArchetype-Updater.bat \
-            updater/AlyArchetype.ico
-          do
-            if [[ ! -f "$f" ]]; then
-              echo "::error::Missing updater file: $f"
-              exit 1
-            fi
-          done
-
           mkdir -p dist/updater-package
+
           cp updater/Install-Updater.bat dist/updater-package/
           cp updater/AlyArchetype-Updater.bat dist/updater-package/
           cp updater/AlyArchetype.ico dist/updater-package/
 
-          cd dist/updater-package
-          zip -r ../AlyArchetype-Updater.zip .
-          cd ../..
+          (
+            cd dist/updater-package
+            zip -r ../AlyArchetype-Updater.zip .
+          )
+
+      - name: Create tag for manual run
+        if: github.event_name == 'workflow_dispatch'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="${{ steps.version.outputs.tag }}"
+
+          if git ls-remote --exit-code --tags origin "refs/tags/$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists."
+          else
+            git tag "$TAG" "$GITHUB_SHA"
+            git push origin "$TAG"
+            echo "Created tag $TAG."
+          fi
 
       - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: AlyArchetype ${{ steps.version.outputs.tag }}
           files: |
             dist/AlyArchetype.zip
             dist/AlyArchetype-Updater.zip
