@@ -1,0 +1,96 @@
+name: Build and publish AlyArchetype
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate tag and version.txt
+        shell: bash
+        run: |
+          set -euo pipefail
+          TAG="${GITHUB_REF_NAME}"
+          TAG_VERSION="${TAG#v}"
+          FILE_VERSION="$(tr -d '\r\n[:space:]' < version.txt)"
+
+          echo "Tag version:  $TAG_VERSION"
+          echo "Theme version: $FILE_VERSION"
+
+          if [[ "$TAG_VERSION" != "$FILE_VERSION" ]]; then
+            echo "::error::version.txt ($FILE_VERSION) does not match tag ($TAG_VERSION)."
+            exit 1
+          fi
+
+      - name: Validate required theme files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f info.xml
+          test -f icon.png
+          test -f version.txt
+          test -d sprites
+          test -d Strings
+          test -d theme
+
+      - name: Build AlyArchetype.zip
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p dist/theme-package
+
+          cp -a sprites dist/theme-package/
+          cp -a Strings dist/theme-package/
+          cp -a theme dist/theme-package/
+          cp icon.png info.xml version.txt dist/theme-package/
+
+          cd dist/theme-package
+          zip -r ../AlyArchetype.zip .
+          cd ../..
+
+          unzip -l dist/AlyArchetype.zip | grep -q 'info.xml'
+          unzip -l dist/AlyArchetype.zip | grep -q 'version.txt'
+
+      - name: Build updater package
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          for f in \
+            updater/Install-Updater.bat \
+            updater/AlyArchetype-Updater.bat \
+            updater/AlyArchetype.ico
+          do
+            if [[ ! -f "$f" ]]; then
+              echo "::error::Missing updater file: $f"
+              exit 1
+            fi
+          done
+
+          mkdir -p dist/updater-package
+          cp updater/Install-Updater.bat dist/updater-package/
+          cp updater/AlyArchetype-Updater.bat dist/updater-package/
+          cp updater/AlyArchetype.ico dist/updater-package/
+
+          cd dist/updater-package
+          zip -r ../AlyArchetype-Updater.zip .
+          cd ../..
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/AlyArchetype.zip
+            dist/AlyArchetype-Updater.zip
+          generate_release_notes: true
+          fail_on_unmatched_files: true
