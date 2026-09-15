@@ -2,12 +2,18 @@ name: Build and publish AlyArchetype
 
 on:
   push:
-    tags:
-      - "v*.*.*"
+    branches:
+      - main
+    paths:
+      - "version.txt"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: alyarchetype-release
+  cancel-in-progress: false
 
 jobs:
   release:
@@ -17,36 +23,44 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Resolve and validate version
+      - name: Read and validate version
         id: version
         shell: bash
         run: |
           set -euo pipefail
 
-          FILE_VERSION="$(tr -d '\r\n[:space:]' < version.txt)"
-          if [[ -z "$FILE_VERSION" ]]; then
-            echo "::error::version.txt is empty."
+          VERSION="$(tr -d '\r\n[:space:]' < version.txt)"
+
+          if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "::error::version.txt must contain a version like 1.0.4 (found: '$VERSION')."
             exit 1
           fi
 
-          if [[ "${GITHUB_EVENT_NAME}" == "push" ]]; then
-            TAG="${GITHUB_REF_NAME}"
-            TAG_VERSION="${TAG#v}"
+          TAG="v$VERSION"
 
-            if [[ "$TAG_VERSION" != "$FILE_VERSION" ]]; then
-              echo "::error::version.txt ($FILE_VERSION) does not match tag ($TAG_VERSION)."
-              exit 1
-            fi
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "Version: $VERSION"
+          echo "Tag: $TAG"
+
+      - name: Check that release does not already exist
+        id: existing
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="${{ steps.version.outputs.tag }}"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "Release $TAG already exists. Nothing to publish."
           else
-            TAG="v${FILE_VERSION}"
+            echo "exists=false" >> "$GITHUB_OUTPUT"
           fi
 
-          echo "version=$FILE_VERSION" >> "$GITHUB_OUTPUT"
-          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
-          echo "Version: $FILE_VERSION"
-          echo "Release tag: $TAG"
-
       - name: Validate required files
+        if: steps.existing.outputs.exists != 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -68,6 +82,7 @@ jobs:
           done
 
       - name: Build AlyArchetype.zip
+        if: steps.existing.outputs.exists != 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -81,16 +96,18 @@ jobs:
             zip -r ../AlyArchetype.zip .
           )
 
-          unzip -Z1 dist/AlyArchetype.zip | grep -Fxq "info.xml"
-          unzip -Z1 dist/AlyArchetype.zip | grep -Fxq "version.txt"
-
           ZIP_VERSION="$(unzip -p dist/AlyArchetype.zip version.txt | tr -d '\r\n[:space:]')"
+
           if [[ "$ZIP_VERSION" != "${{ steps.version.outputs.version }}" ]]; then
-            echo "::error::Built ZIP version ($ZIP_VERSION) is incorrect."
+            echo "::error::Built ZIP version ($ZIP_VERSION) does not match version.txt."
             exit 1
           fi
 
+          unzip -Z1 dist/AlyArchetype.zip | grep -Fxq "info.xml"
+          unzip -Z1 dist/AlyArchetype.zip | grep -Fxq "version.txt"
+
       - name: Build AlyArchetype-Updater.zip
+        if: steps.existing.outputs.exists != 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -105,8 +122,8 @@ jobs:
             zip -r ../AlyArchetype-Updater.zip .
           )
 
-      - name: Create tag for manual run
-        if: github.event_name == 'workflow_dispatch'
+      - name: Create version tag
+        if: steps.existing.outputs.exists != 'true'
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
@@ -115,18 +132,19 @@ jobs:
           TAG="${{ steps.version.outputs.tag }}"
 
           if git ls-remote --exit-code --tags origin "refs/tags/$TAG" >/dev/null 2>&1; then
-            echo "Tag $TAG already exists."
+            echo "Tag $TAG already exists; using it."
           else
             git tag "$TAG" "$GITHUB_SHA"
             git push origin "$TAG"
-            echo "Created tag $TAG."
+            echo "Created $TAG."
           fi
 
       - name: Publish GitHub Release
+        if: steps.existing.outputs.exists != 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.tag }}
-          name: AlyArchetype ${{ steps.version.outputs.tag }}
+          name: AlyArchetype v${{ steps.version.outputs.version }}
           files: |
             dist/AlyArchetype.zip
             dist/AlyArchetype-Updater.zip
