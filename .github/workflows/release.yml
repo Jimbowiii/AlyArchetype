@@ -28,20 +28,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-
           VERSION="$(tr -d '\r\n[:space:]' < version.txt)"
-
-          if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-            echo "::error::version.txt must contain a version like 1.0.4 (found: '$VERSION')."
+          [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || {
+            echo "::error::version.txt must contain a version like 1.0.4."
             exit 1
-          fi
-
-          TAG="v$VERSION"
-
+          }
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
-          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
-          echo "Version: $VERSION"
-          echo "Tag: $TAG"
+          echo "tag=v$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Check that release does not already exist
         id: existing
@@ -49,12 +42,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          set -euo pipefail
           TAG="${{ steps.version.outputs.tag }}"
-
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
-            echo "Release $TAG already exists. Nothing to publish."
+            echo "Release $TAG already exists."
           else
             echo "exists=false" >> "$GITHUB_OUTPUT"
           fi
@@ -64,22 +55,35 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-
-          for f in icon.png info.xml version.txt; do
-            test -f "$f" || { echo "::error::Missing theme file: $f"; exit 1; }
+          for f in icon.png info.xml version.txt CHANGELOG.md; do
+            test -f "$f" || { echo "::error::Missing file: $f"; exit 1; }
           done
-
           for d in sprites Strings theme; do
-            test -d "$d" || { echo "::error::Missing theme directory: $d"; exit 1; }
+            test -d "$d" || { echo "::error::Missing directory: $d"; exit 1; }
           done
-
-          for f in \
-            updater/Install-Updater.bat \
-            updater/AlyArchetype-Updater.bat \
-            updater/AlyArchetype.ico
-          do
+          for f in updater/Install-Updater.bat updater/AlyArchetype-Updater.bat updater/AlyArchetype.ico; do
             test -f "$f" || { echo "::error::Missing updater file: $f"; exit 1; }
           done
+
+      - name: Extract release notes from CHANGELOG
+        if: steps.existing.outputs.exists != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.version.outputs.version }}"
+          awk -v version="$VERSION" '
+            $0 ~ "^## \\[" version "\\]" { found=1; next }
+            found && /^## \[/ { exit }
+            found { print }
+          ' CHANGELOG.md > release-notes.md
+
+          if ! grep -q '[^[:space:]]' release-notes.md; then
+            echo "::error::No CHANGELOG section found for [$VERSION]."
+            exit 1
+          fi
+
+          echo "Release notes:"
+          cat release-notes.md
 
       - name: Build AlyArchetype.zip
         if: steps.existing.outputs.exists != 'true'
@@ -87,22 +91,12 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p dist/theme-package
-
           cp -a sprites Strings theme dist/theme-package/
           cp icon.png info.xml version.txt dist/theme-package/
-
-          (
-            cd dist/theme-package
-            zip -r ../AlyArchetype.zip .
-          )
+          (cd dist/theme-package && zip -r ../AlyArchetype.zip .)
 
           ZIP_VERSION="$(unzip -p dist/AlyArchetype.zip version.txt | tr -d '\r\n[:space:]')"
-
-          if [[ "$ZIP_VERSION" != "${{ steps.version.outputs.version }}" ]]; then
-            echo "::error::Built ZIP version ($ZIP_VERSION) does not match version.txt."
-            exit 1
-          fi
-
+          [[ "$ZIP_VERSION" == "${{ steps.version.outputs.version }}" ]] || exit 1
           unzip -Z1 dist/AlyArchetype.zip | grep -Fxq "info.xml"
           unzip -Z1 dist/AlyArchetype.zip | grep -Fxq "version.txt"
 
@@ -112,31 +106,22 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p dist/updater-package
-
           cp updater/Install-Updater.bat dist/updater-package/
           cp updater/AlyArchetype-Updater.bat dist/updater-package/
           cp updater/AlyArchetype.ico dist/updater-package/
-
-          (
-            cd dist/updater-package
-            zip -r ../AlyArchetype-Updater.zip .
-          )
+          (cd dist/updater-package && zip -r ../AlyArchetype-Updater.zip .)
 
       - name: Create version tag
         if: steps.existing.outputs.exists != 'true'
         shell: bash
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           TAG="${{ steps.version.outputs.tag }}"
-
           if git ls-remote --exit-code --tags origin "refs/tags/$TAG" >/dev/null 2>&1; then
-            echo "Tag $TAG already exists; using it."
+            echo "Tag $TAG already exists."
           else
             git tag "$TAG" "$GITHUB_SHA"
             git push origin "$TAG"
-            echo "Created $TAG."
           fi
 
       - name: Publish GitHub Release
@@ -145,8 +130,8 @@ jobs:
         with:
           tag_name: ${{ steps.version.outputs.tag }}
           name: AlyArchetype v${{ steps.version.outputs.version }}
+          body_path: release-notes.md
           files: |
             dist/AlyArchetype.zip
             dist/AlyArchetype-Updater.zip
-          generate_release_notes: true
           fail_on_unmatched_files: true
