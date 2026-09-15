@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+    <images file="../anim/sky/Sky_000.jpg" filter="nearest">
+        <area name="sky-summary-000" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_001.jpg" filter="nearest">
+        <area name="sky-summary-001" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_002.jpg" filter="nearest">
+        <area name="sky-summary-002" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_003.jpg" filter="nearest">
+        <area name="sky-summary-003" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_004.jpg" filter="nearest">
+        <area name="sky-summary-004" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_005.jpg" filter="nearest">
+        <area name="sky-summary-005" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_006.jpg" filter="nearest">
+        <area name="sky-summary-006" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_007.jpg" filter="nearest">
+        <area name="sky-summary-007" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_008.jpg" filter="nearest">
+        <area name="sky-summary-008" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_009.jpg" filter="nearest">
+        <area name="sky-summary-009" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_010.jpg" filter="nearest">
+        <area name="sky-summary-010" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_011.jpg" filter="nearest">
+        <area name="sky-summary-011" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_012.jpg" filter="nearest">
+        <area name="sky-summary-012" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_013.jpg" filter="nearest">
+        <area name="sky-summary-013" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_014.jpg" filter="nearest">
+        <area name="sky-summary-014" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_015.jpg" filter="nearest">
+        <area name="sky-summary-015" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_016.jpg" filter="nearest">
+        <area name="sky-summary-016" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_017.jpg" filter="nearest">
+        <area name="sky-summary-017" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_018.jpg" filter="nearest">
+        <area name="sky-summary-018" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_019.jpg" filter="nearest">
+        <area name="sky-summary-019" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_020.jpg" filter="nearest">
+        <area name="sky-summary-020" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_021.jpg" filter="nearest">
+        <area name="sky-summary-021" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_022.jpg" filter="nearest">
+        <area name="sky-summary-022" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_023.jpg" filter="nearest">
+        <area name="sky-summary-023" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_024.jpg" filter="nearest">
+        <area name="sky-summary-024" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_025.jpg" filter="nearest">
+        <area name="sky-summary-025" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_026.jpg" filter="nearest">
+        <area name="sky-summary-026" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_027.jpg" filter="nearest">
+        <area name="sky-summary-027" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_028.jpg" filter="nearest">
+        <area name="sky-summary-028" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_029.jpg" filter="nearest">
+        <area name="sky-summary-029" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_030.jpg" filter="nearest">
+        <area name="sky-summary-030" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_031.jpg" filter="nearest">
+        <area name="sky-summary-031" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_032.jpg" filter="nearest">
+        <area name="sky-summary-032" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_033.jpg" filter="nearest">
+        <area name="sky-summary-033" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_034.jpg" filter="nearest">
+        <area name="sky-summary-034" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_035.jpg" filter="nearest">
+        <area name="sky-summary-035" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_036.jpg" filter="nearest">
+        <area name="sky-summary-036" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_037.jpg" filter="nearest">
+        <area name="sky-summary-037" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_038.jpg" filter="nearest">
+        <area name="sky-summary-038" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_039.jpg" filter="nearest">
+        <area name="sky-summary-039" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_040.jpg" filter="nearest">
+        <area name="sky-summary-040" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_041.jpg" filter="nearest">
+        <area name="sky-summary-041" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_042.jpg" filter="nearest">
+        <area name="sky-summary-042" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_043.jpg" filter="nearest">
+        <area name="sky-summary-043" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_044.jpg" filter="nearest">
+        <area name="sky-summary-044" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_045.jpg" filter="nearest">
+        <area name="sky-summary-045" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_046.jpg" filter="nearest">
+        <area name="sky-summary-046" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_047.jpg" filter="nearest">
+        <area name="sky-summary-047" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_048.jpg" filter="nearest">
+        <area name="sky-summary-048" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_049.jpg" filter="nearest">
+        <area name="sky-summary-049" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_050.jpg" filter="nearest">
+        <area name="sky-summary-050" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_051.jpg" filter="nearest">
+        <area name="sky-summary-051" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_052.jpg" filter="nearest">
+        <area name="sky-summary-052" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_053.jpg" filter="nearest">
+        <area name="sky-summary-053" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_054.jpg" filter="nearest">
+        <area name="sky-summary-054" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_055.jpg" filter="nearest">
+        <area name="sky-summary-055" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_056.jpg" filter="nearest">
+        <area name="sky-summary-056" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_057.jpg" filter="nearest">
+        <area name="sky-summary-057" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_058.jpg" filter="nearest">
+        <area name="sky-summary-058" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_059.jpg" filter="nearest">
+        <area name="sky-summary-059" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_060.jpg" filter="nearest">
+        <area name="sky-summary-060" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_061.jpg" filter="nearest">
+        <area name="sky-summary-061" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_062.jpg" filter="nearest">
+        <area name="sky-summary-062" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_063.jpg" filter="nearest">
+        <area name="sky-summary-063" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_064.jpg" filter="nearest">
+        <area name="sky-summary-064" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_065.jpg" filter="nearest">
+        <area name="sky-summary-065" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_066.jpg" filter="nearest">
+        <area name="sky-summary-066" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_067.jpg" filter="nearest">
+        <area name="sky-summary-067" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_068.jpg" filter="nearest">
+        <area name="sky-summary-068" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_069.jpg" filter="nearest">
+        <area name="sky-summary-069" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_070.jpg" filter="nearest">
+        <area name="sky-summary-070" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_071.jpg" filter="nearest">
+        <area name="sky-summary-071" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_072.jpg" filter="nearest">
+        <area name="sky-summary-072" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_073.jpg" filter="nearest">
+        <area name="sky-summary-073" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_074.jpg" filter="nearest">
+        <area name="sky-summary-074" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_075.jpg" filter="nearest">
+        <area name="sky-summary-075" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_076.jpg" filter="nearest">
+        <area name="sky-summary-076" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_077.jpg" filter="nearest">
+        <area name="sky-summary-077" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_078.jpg" filter="nearest">
+        <area name="sky-summary-078" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_079.jpg" filter="nearest">
+        <area name="sky-summary-079" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_080.jpg" filter="nearest">
+        <area name="sky-summary-080" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_081.jpg" filter="nearest">
+        <area name="sky-summary-081" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_082.jpg" filter="nearest">
+        <area name="sky-summary-082" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_083.jpg" filter="nearest">
+        <area name="sky-summary-083" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_084.jpg" filter="nearest">
+        <area name="sky-summary-084" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_085.jpg" filter="nearest">
+        <area name="sky-summary-085" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_086.jpg" filter="nearest">
+        <area name="sky-summary-086" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_087.jpg" filter="nearest">
+        <area name="sky-summary-087" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_088.jpg" filter="nearest">
+        <area name="sky-summary-088" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_089.jpg" filter="nearest">
+        <area name="sky-summary-089" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_090.jpg" filter="nearest">
+        <area name="sky-summary-090" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_091.jpg" filter="nearest">
+        <area name="sky-summary-091" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_092.jpg" filter="nearest">
+        <area name="sky-summary-092" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_093.jpg" filter="nearest">
+        <area name="sky-summary-093" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_094.jpg" filter="nearest">
+        <area name="sky-summary-094" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_095.jpg" filter="nearest">
+        <area name="sky-summary-095" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_096.jpg" filter="nearest">
+        <area name="sky-summary-096" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_097.jpg" filter="nearest">
+        <area name="sky-summary-097" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_098.jpg" filter="nearest">
+        <area name="sky-summary-098" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_099.jpg" filter="nearest">
+        <area name="sky-summary-099" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_100.jpg" filter="nearest">
+        <area name="sky-summary-100" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_101.jpg" filter="nearest">
+        <area name="sky-summary-101" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_102.jpg" filter="nearest">
+        <area name="sky-summary-102" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_103.jpg" filter="nearest">
+        <area name="sky-summary-103" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_104.jpg" filter="nearest">
+        <area name="sky-summary-104" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_105.jpg" filter="nearest">
+        <area name="sky-summary-105" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_106.jpg" filter="nearest">
+        <area name="sky-summary-106" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_107.jpg" filter="nearest">
+        <area name="sky-summary-107" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_108.jpg" filter="nearest">
+        <area name="sky-summary-108" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_109.jpg" filter="nearest">
+        <area name="sky-summary-109" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_110.jpg" filter="nearest">
+        <area name="sky-summary-110" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_111.jpg" filter="nearest">
+        <area name="sky-summary-111" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_112.jpg" filter="nearest">
+        <area name="sky-summary-112" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_113.jpg" filter="nearest">
+        <area name="sky-summary-113" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_114.jpg" filter="nearest">
+        <area name="sky-summary-114" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_115.jpg" filter="nearest">
+        <area name="sky-summary-115" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_116.jpg" filter="nearest">
+        <area name="sky-summary-116" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_117.jpg" filter="nearest">
+        <area name="sky-summary-117" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_118.jpg" filter="nearest">
+        <area name="sky-summary-118" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_119.jpg" filter="nearest">
+        <area name="sky-summary-119" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_120.jpg" filter="nearest">
+        <area name="sky-summary-120" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_121.jpg" filter="nearest">
+        <area name="sky-summary-121" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_122.jpg" filter="nearest">
+        <area name="sky-summary-122" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_123.jpg" filter="nearest">
+        <area name="sky-summary-123" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_124.jpg" filter="nearest">
+        <area name="sky-summary-124" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_125.jpg" filter="nearest">
+        <area name="sky-summary-125" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_126.jpg" filter="nearest">
+        <area name="sky-summary-126" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_127.jpg" filter="nearest">
+        <area name="sky-summary-127" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_128.jpg" filter="nearest">
+        <area name="sky-summary-128" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_129.jpg" filter="nearest">
+        <area name="sky-summary-129" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_130.jpg" filter="nearest">
+        <area name="sky-summary-130" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_131.jpg" filter="nearest">
+        <area name="sky-summary-131" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_132.jpg" filter="nearest">
+        <area name="sky-summary-132" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_133.jpg" filter="nearest">
+        <area name="sky-summary-133" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_134.jpg" filter="nearest">
+        <area name="sky-summary-134" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_135.jpg" filter="nearest">
+        <area name="sky-summary-135" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_136.jpg" filter="nearest">
+        <area name="sky-summary-136" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_137.jpg" filter="nearest">
+        <area name="sky-summary-137" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_138.jpg" filter="nearest">
+        <area name="sky-summary-138" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_139.jpg" filter="nearest">
+        <area name="sky-summary-139" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_140.jpg" filter="nearest">
+        <area name="sky-summary-140" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_141.jpg" filter="nearest">
+        <area name="sky-summary-141" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_142.jpg" filter="nearest">
+        <area name="sky-summary-142" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_143.jpg" filter="nearest">
+        <area name="sky-summary-143" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_144.jpg" filter="nearest">
+        <area name="sky-summary-144" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_145.jpg" filter="nearest">
+        <area name="sky-summary-145" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_146.jpg" filter="nearest">
+        <area name="sky-summary-146" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_147.jpg" filter="nearest">
+        <area name="sky-summary-147" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_148.jpg" filter="nearest">
+        <area name="sky-summary-148" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_149.jpg" filter="nearest">
+        <area name="sky-summary-149" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_150.jpg" filter="nearest">
+        <area name="sky-summary-150" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_151.jpg" filter="nearest">
+        <area name="sky-summary-151" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_152.jpg" filter="nearest">
+        <area name="sky-summary-152" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_153.jpg" filter="nearest">
+        <area name="sky-summary-153" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_154.jpg" filter="nearest">
+        <area name="sky-summary-154" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_155.jpg" filter="nearest">
+        <area name="sky-summary-155" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_156.jpg" filter="nearest">
+        <area name="sky-summary-156" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_157.jpg" filter="nearest">
+        <area name="sky-summary-157" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_158.jpg" filter="nearest">
+        <area name="sky-summary-158" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_159.jpg" filter="nearest">
+        <area name="sky-summary-159" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_160.jpg" filter="nearest">
+        <area name="sky-summary-160" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_161.jpg" filter="nearest">
+        <area name="sky-summary-161" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_162.jpg" filter="nearest">
+        <area name="sky-summary-162" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_163.jpg" filter="nearest">
+        <area name="sky-summary-163" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_164.jpg" filter="nearest">
+        <area name="sky-summary-164" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_165.jpg" filter="nearest">
+        <area name="sky-summary-165" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_166.jpg" filter="nearest">
+        <area name="sky-summary-166" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_167.jpg" filter="nearest">
+        <area name="sky-summary-167" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_168.jpg" filter="nearest">
+        <area name="sky-summary-168" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_169.jpg" filter="nearest">
+        <area name="sky-summary-169" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_170.jpg" filter="nearest">
+        <area name="sky-summary-170" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_171.jpg" filter="nearest">
+        <area name="sky-summary-171" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_172.jpg" filter="nearest">
+        <area name="sky-summary-172" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_173.jpg" filter="nearest">
+        <area name="sky-summary-173" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_174.jpg" filter="nearest">
+        <area name="sky-summary-174" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_175.jpg" filter="nearest">
+        <area name="sky-summary-175" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_176.jpg" filter="nearest">
+        <area name="sky-summary-176" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_177.jpg" filter="nearest">
+        <area name="sky-summary-177" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_178.jpg" filter="nearest">
+        <area name="sky-summary-178" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_179.jpg" filter="nearest">
+        <area name="sky-summary-179" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_180.jpg" filter="nearest">
+        <area name="sky-summary-180" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_181.jpg" filter="nearest">
+        <area name="sky-summary-181" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_182.jpg" filter="nearest">
+        <area name="sky-summary-182" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_183.jpg" filter="nearest">
+        <area name="sky-summary-183" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_184.jpg" filter="nearest">
+        <area name="sky-summary-184" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_185.jpg" filter="nearest">
+        <area name="sky-summary-185" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_186.jpg" filter="nearest">
+        <area name="sky-summary-186" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_187.jpg" filter="nearest">
+        <area name="sky-summary-187" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_188.jpg" filter="nearest">
+        <area name="sky-summary-188" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_189.jpg" filter="nearest">
+        <area name="sky-summary-189" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_190.jpg" filter="nearest">
+        <area name="sky-summary-190" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_191.jpg" filter="nearest">
+        <area name="sky-summary-191" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_192.jpg" filter="nearest">
+        <area name="sky-summary-192" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_193.jpg" filter="nearest">
+        <area name="sky-summary-193" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_194.jpg" filter="nearest">
+        <area name="sky-summary-194" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_195.jpg" filter="nearest">
+        <area name="sky-summary-195" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_196.jpg" filter="nearest">
+        <area name="sky-summary-196" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_197.jpg" filter="nearest">
+        <area name="sky-summary-197" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_198.jpg" filter="nearest">
+        <area name="sky-summary-198" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_199.jpg" filter="nearest">
+        <area name="sky-summary-199" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_200.jpg" filter="nearest">
+        <area name="sky-summary-200" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_201.jpg" filter="nearest">
+        <area name="sky-summary-201" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_202.jpg" filter="nearest">
+        <area name="sky-summary-202" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_203.jpg" filter="nearest">
+        <area name="sky-summary-203" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_204.jpg" filter="nearest">
+        <area name="sky-summary-204" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_205.jpg" filter="nearest">
+        <area name="sky-summary-205" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_206.jpg" filter="nearest">
+        <area name="sky-summary-206" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_207.jpg" filter="nearest">
+        <area name="sky-summary-207" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_208.jpg" filter="nearest">
+        <area name="sky-summary-208" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_209.jpg" filter="nearest">
+        <area name="sky-summary-209" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_210.jpg" filter="nearest">
+        <area name="sky-summary-210" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_211.jpg" filter="nearest">
+        <area name="sky-summary-211" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_212.jpg" filter="nearest">
+        <area name="sky-summary-212" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_213.jpg" filter="nearest">
+        <area name="sky-summary-213" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_214.jpg" filter="nearest">
+        <area name="sky-summary-214" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_215.jpg" filter="nearest">
+        <area name="sky-summary-215" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_216.jpg" filter="nearest">
+        <area name="sky-summary-216" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_217.jpg" filter="nearest">
+        <area name="sky-summary-217" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_218.jpg" filter="nearest">
+        <area name="sky-summary-218" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_219.jpg" filter="nearest">
+        <area name="sky-summary-219" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_220.jpg" filter="nearest">
+        <area name="sky-summary-220" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_221.jpg" filter="nearest">
+        <area name="sky-summary-221" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_222.jpg" filter="nearest">
+        <area name="sky-summary-222" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_223.jpg" filter="nearest">
+        <area name="sky-summary-223" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_224.jpg" filter="nearest">
+        <area name="sky-summary-224" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_225.jpg" filter="nearest">
+        <area name="sky-summary-225" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_226.jpg" filter="nearest">
+        <area name="sky-summary-226" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_227.jpg" filter="nearest">
+        <area name="sky-summary-227" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_228.jpg" filter="nearest">
+        <area name="sky-summary-228" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_229.jpg" filter="nearest">
+        <area name="sky-summary-229" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_230.jpg" filter="nearest">
+        <area name="sky-summary-230" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_231.jpg" filter="nearest">
+        <area name="sky-summary-231" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_232.jpg" filter="nearest">
+        <area name="sky-summary-232" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_233.jpg" filter="nearest">
+        <area name="sky-summary-233" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_234.jpg" filter="nearest">
+        <area name="sky-summary-234" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_235.jpg" filter="nearest">
+        <area name="sky-summary-235" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_236.jpg" filter="nearest">
+        <area name="sky-summary-236" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_237.jpg" filter="nearest">
+        <area name="sky-summary-237" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_238.jpg" filter="nearest">
+        <area name="sky-summary-238" xywh="*"/>
+    </images>
+    <images file="../anim/sky/Sky_239.jpg" filter="nearest">
+        <area name="sky-summary-239" xywh="*"/>
+    </images>
+    <images>
+        <animation name="Sky" timeSource="enabled">
+            <frame ref="sky-summary-000" duration="40"/>
+            <frame ref="sky-summary-001" duration="40"/>
+            <frame ref="sky-summary-002" duration="40"/>
+            <frame ref="sky-summary-003" duration="40"/>
+            <frame ref="sky-summary-004" duration="40"/>
+            <frame ref="sky-summary-005" duration="40"/>
+            <frame ref="sky-summary-006" duration="40"/>
+            <frame ref="sky-summary-007" duration="40"/>
+            <frame ref="sky-summary-008" duration="40"/>
+            <frame ref="sky-summary-009" duration="40"/>
+            <frame ref="sky-summary-010" duration="40"/>
+            <frame ref="sky-summary-011" duration="40"/>
+            <frame ref="sky-summary-012" duration="40"/>
+            <frame ref="sky-summary-013" duration="40"/>
+            <frame ref="sky-summary-014" duration="40"/>
+            <frame ref="sky-summary-015" duration="40"/>
+            <frame ref="sky-summary-016" duration="40"/>
+            <frame ref="sky-summary-017" duration="40"/>
+            <frame ref="sky-summary-018" duration="40"/>
+            <frame ref="sky-summary-019" duration="40"/>
+            <frame ref="sky-summary-020" duration="40"/>
+            <frame ref="sky-summary-021" duration="40"/>
+            <frame ref="sky-summary-022" duration="40"/>
+            <frame ref="sky-summary-023" duration="40"/>
+            <frame ref="sky-summary-024" duration="40"/>
+            <frame ref="sky-summary-025" duration="40"/>
+            <frame ref="sky-summary-026" duration="40"/>
+            <frame ref="sky-summary-027" duration="40"/>
+            <frame ref="sky-summary-028" duration="40"/>
+            <frame ref="sky-summary-029" duration="40"/>
+            <frame ref="sky-summary-030" duration="40"/>
+            <frame ref="sky-summary-031" duration="40"/>
+            <frame ref="sky-summary-032" duration="40"/>
+            <frame ref="sky-summary-033" duration="40"/>
+            <frame ref="sky-summary-034" duration="40"/>
+            <frame ref="sky-summary-035" duration="40"/>
+            <frame ref="sky-summary-036" duration="40"/>
+            <frame ref="sky-summary-037" duration="40"/>
+            <frame ref="sky-summary-038" duration="40"/>
+            <frame ref="sky-summary-039" duration="40"/>
+            <frame ref="sky-summary-040" duration="40"/>
+            <frame ref="sky-summary-041" duration="40"/>
+            <frame ref="sky-summary-042" duration="40"/>
+            <frame ref="sky-summary-043" duration="40"/>
+            <frame ref="sky-summary-044" duration="40"/>
+            <frame ref="sky-summary-045" duration="40"/>
+            <frame ref="sky-summary-046" duration="40"/>
+            <frame ref="sky-summary-047" duration="40"/>
+            <frame ref="sky-summary-048" duration="40"/>
+            <frame ref="sky-summary-049" duration="40"/>
+            <frame ref="sky-summary-050" duration="40"/>
+            <frame ref="sky-summary-051" duration="40"/>
+            <frame ref="sky-summary-052" duration="40"/>
+            <frame ref="sky-summary-053" duration="40"/>
+            <frame ref="sky-summary-054" duration="40"/>
+            <frame ref="sky-summary-055" duration="40"/>
+            <frame ref="sky-summary-056" duration="40"/>
+            <frame ref="sky-summary-057" duration="40"/>
+            <frame ref="sky-summary-058" duration="40"/>
+            <frame ref="sky-summary-059" duration="40"/>
+            <frame ref="sky-summary-060" duration="40"/>
+            <frame ref="sky-summary-061" duration="40"/>
+            <frame ref="sky-summary-062" duration="40"/>
+            <frame ref="sky-summary-063" duration="40"/>
+            <frame ref="sky-summary-064" duration="40"/>
+            <frame ref="sky-summary-065" duration="40"/>
+            <frame ref="sky-summary-066" duration="40"/>
+            <frame ref="sky-summary-067" duration="40"/>
+            <frame ref="sky-summary-068" duration="40"/>
+            <frame ref="sky-summary-069" duration="40"/>
+            <frame ref="sky-summary-070" duration="40"/>
+            <frame ref="sky-summary-071" duration="40"/>
+            <frame ref="sky-summary-072" duration="40"/>
+            <frame ref="sky-summary-073" duration="40"/>
+            <frame ref="sky-summary-074" duration="40"/>
+            <frame ref="sky-summary-075" duration="40"/>
+            <frame ref="sky-summary-076" duration="40"/>
+            <frame ref="sky-summary-077" duration="40"/>
+            <frame ref="sky-summary-078" duration="40"/>
+            <frame ref="sky-summary-079" duration="40"/>
+            <frame ref="sky-summary-080" duration="40"/>
+            <frame ref="sky-summary-081" duration="40"/>
+            <frame ref="sky-summary-082" duration="40"/>
+            <frame ref="sky-summary-083" duration="40"/>
+            <frame ref="sky-summary-084" duration="40"/>
+            <frame ref="sky-summary-085" duration="40"/>
+            <frame ref="sky-summary-086" duration="40"/>
+            <frame ref="sky-summary-087" duration="40"/>
+            <frame ref="sky-summary-088" duration="40"/>
+            <frame ref="sky-summary-089" duration="40"/>
+            <frame ref="sky-summary-090" duration="40"/>
+            <frame ref="sky-summary-091" duration="40"/>
+            <frame ref="sky-summary-092" duration="40"/>
+            <frame ref="sky-summary-093" duration="40"/>
+            <frame ref="sky-summary-094" duration="40"/>
+            <frame ref="sky-summary-095" duration="40"/>
+            <frame ref="sky-summary-096" duration="40"/>
+            <frame ref="sky-summary-097" duration="40"/>
+            <frame ref="sky-summary-098" duration="40"/>
+            <frame ref="sky-summary-099" duration="40"/>
+            <frame ref="sky-summary-100" duration="40"/>
+            <frame ref="sky-summary-101" duration="40"/>
+            <frame ref="sky-summary-102" duration="40"/>
+            <frame ref="sky-summary-103" duration="40"/>
+            <frame ref="sky-summary-104" duration="40"/>
+            <frame ref="sky-summary-105" duration="40"/>
+            <frame ref="sky-summary-106" duration="40"/>
+            <frame ref="sky-summary-107" duration="40"/>
+            <frame ref="sky-summary-108" duration="40"/>
+            <frame ref="sky-summary-109" duration="40"/>
+            <frame ref="sky-summary-110" duration="40"/>
+            <frame ref="sky-summary-111" duration="40"/>
+            <frame ref="sky-summary-112" duration="40"/>
+            <frame ref="sky-summary-113" duration="40"/>
+            <frame ref="sky-summary-114" duration="40"/>
+            <frame ref="sky-summary-115" duration="40"/>
+            <frame ref="sky-summary-116" duration="40"/>
+            <frame ref="sky-summary-117" duration="40"/>
+            <frame ref="sky-summary-118" duration="40"/>
+            <frame ref="sky-summary-119" duration="40"/>
+            <frame ref="sky-summary-120" duration="40"/>
+            <frame ref="sky-summary-121" duration="40"/>
+            <frame ref="sky-summary-122" duration="40"/>
+            <frame ref="sky-summary-123" duration="40"/>
+            <frame ref="sky-summary-124" duration="40"/>
+            <frame ref="sky-summary-125" duration="40"/>
+            <frame ref="sky-summary-126" duration="40"/>
+            <frame ref="sky-summary-127" duration="40"/>
+            <frame ref="sky-summary-128" duration="40"/>
+            <frame ref="sky-summary-129" duration="40"/>
+            <frame ref="sky-summary-130" duration="40"/>
+            <frame ref="sky-summary-131" duration="40"/>
+            <frame ref="sky-summary-132" duration="40"/>
+            <frame ref="sky-summary-133" duration="40"/>
+            <frame ref="sky-summary-134" duration="40"/>
+            <frame ref="sky-summary-135" duration="40"/>
+            <frame ref="sky-summary-136" duration="40"/>
+            <frame ref="sky-summary-137" duration="40"/>
+            <frame ref="sky-summary-138" duration="40"/>
+            <frame ref="sky-summary-139" duration="40"/>
+            <frame ref="sky-summary-140" duration="40"/>
+            <frame ref="sky-summary-141" duration="40"/>
+            <frame ref="sky-summary-142" duration="40"/>
+            <frame ref="sky-summary-143" duration="40"/>
+            <frame ref="sky-summary-144" duration="40"/>
+            <frame ref="sky-summary-145" duration="40"/>
+            <frame ref="sky-summary-146" duration="40"/>
+            <frame ref="sky-summary-147" duration="40"/>
+            <frame ref="sky-summary-148" duration="40"/>
+            <frame ref="sky-summary-149" duration="40"/>
+            <frame ref="sky-summary-150" duration="40"/>
+            <frame ref="sky-summary-151" duration="40"/>
+            <frame ref="sky-summary-152" duration="40"/>
+            <frame ref="sky-summary-153" duration="40"/>
+            <frame ref="sky-summary-154" duration="40"/>
+            <frame ref="sky-summary-155" duration="40"/>
+            <frame ref="sky-summary-156" duration="40"/>
+            <frame ref="sky-summary-157" duration="40"/>
+            <frame ref="sky-summary-158" duration="40"/>
+            <frame ref="sky-summary-159" duration="40"/>
+            <frame ref="sky-summary-160" duration="40"/>
+            <frame ref="sky-summary-161" duration="40"/>
+            <frame ref="sky-summary-162" duration="40"/>
+            <frame ref="sky-summary-163" duration="40"/>
+            <frame ref="sky-summary-164" duration="40"/>
+            <frame ref="sky-summary-165" duration="40"/>
+            <frame ref="sky-summary-166" duration="40"/>
+            <frame ref="sky-summary-167" duration="40"/>
+            <frame ref="sky-summary-168" duration="40"/>
+            <frame ref="sky-summary-169" duration="40"/>
+            <frame ref="sky-summary-170" duration="40"/>
+            <frame ref="sky-summary-171" duration="40"/>
+            <frame ref="sky-summary-172" duration="40"/>
+            <frame ref="sky-summary-173" duration="40"/>
+            <frame ref="sky-summary-174" duration="40"/>
+            <frame ref="sky-summary-175" duration="40"/>
+            <frame ref="sky-summary-176" duration="40"/>
+            <frame ref="sky-summary-177" duration="40"/>
+            <frame ref="sky-summary-178" duration="40"/>
+            <frame ref="sky-summary-179" duration="40"/>
+            <frame ref="sky-summary-180" duration="40"/>
+            <frame ref="sky-summary-181" duration="40"/>
+            <frame ref="sky-summary-182" duration="40"/>
+            <frame ref="sky-summary-183" duration="40"/>
+            <frame ref="sky-summary-184" duration="40"/>
+            <frame ref="sky-summary-185" duration="40"/>
+            <frame ref="sky-summary-186" duration="40"/>
+            <frame ref="sky-summary-187" duration="40"/>
+            <frame ref="sky-summary-188" duration="40"/>
+            <frame ref="sky-summary-189" duration="40"/>
+            <frame ref="sky-summary-190" duration="40"/>
+            <frame ref="sky-summary-191" duration="40"/>
+            <frame ref="sky-summary-192" duration="40"/>
+            <frame ref="sky-summary-193" duration="40"/>
+            <frame ref="sky-summary-194" duration="40"/>
+            <frame ref="sky-summary-195" duration="40"/>
+            <frame ref="sky-summary-196" duration="40"/>
+            <frame ref="sky-summary-197" duration="40"/>
+            <frame ref="sky-summary-198" duration="40"/>
+            <frame ref="sky-summary-199" duration="40"/>
+            <frame ref="sky-summary-200" duration="40"/>
+            <frame ref="sky-summary-201" duration="40"/>
+            <frame ref="sky-summary-202" duration="40"/>
+            <frame ref="sky-summary-203" duration="40"/>
+            <frame ref="sky-summary-204" duration="40"/>
+            <frame ref="sky-summary-205" duration="40"/>
+            <frame ref="sky-summary-206" duration="40"/>
+            <frame ref="sky-summary-207" duration="40"/>
+            <frame ref="sky-summary-208" duration="40"/>
+            <frame ref="sky-summary-209" duration="40"/>
+            <frame ref="sky-summary-210" duration="40"/>
+            <frame ref="sky-summary-211" duration="40"/>
+            <frame ref="sky-summary-212" duration="40"/>
+            <frame ref="sky-summary-213" duration="40"/>
+            <frame ref="sky-summary-214" duration="40"/>
+            <frame ref="sky-summary-215" duration="40"/>
+            <frame ref="sky-summary-216" duration="40"/>
+            <frame ref="sky-summary-217" duration="40"/>
+            <frame ref="sky-summary-218" duration="40"/>
+            <frame ref="sky-summary-219" duration="40"/>
+            <frame ref="sky-summary-220" duration="40"/>
+            <frame ref="sky-summary-221" duration="40"/>
+            <frame ref="sky-summary-222" duration="40"/>
+            <frame ref="sky-summary-223" duration="40"/>
+            <frame ref="sky-summary-224" duration="40"/>
+            <frame ref="sky-summary-225" duration="40"/>
+            <frame ref="sky-summary-226" duration="40"/>
+            <frame ref="sky-summary-227" duration="40"/>
+            <frame ref="sky-summary-228" duration="40"/>
+            <frame ref="sky-summary-229" duration="40"/>
+            <frame ref="sky-summary-230" duration="40"/>
+            <frame ref="sky-summary-231" duration="40"/>
+            <frame ref="sky-summary-232" duration="40"/>
+            <frame ref="sky-summary-233" duration="40"/>
+            <frame ref="sky-summary-234" duration="40"/>
+            <frame ref="sky-summary-235" duration="40"/>
+            <frame ref="sky-summary-236" duration="40"/>
+            <frame ref="sky-summary-237" duration="40"/>
+            <frame ref="sky-summary-238" duration="40"/>
+            <frame ref="sky-summary-239" duration="40"/>
+        </animation>
+    </images>
+</themes>

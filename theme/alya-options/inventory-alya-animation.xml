@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+    <images file="../anim/inventory-alya/InventoryAlya_000.png" filter="nearest">
+        <area name="inventory-alya-000" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_001.png" filter="nearest">
+        <area name="inventory-alya-001" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_002.png" filter="nearest">
+        <area name="inventory-alya-002" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_003.png" filter="nearest">
+        <area name="inventory-alya-003" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_004.png" filter="nearest">
+        <area name="inventory-alya-004" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_005.png" filter="nearest">
+        <area name="inventory-alya-005" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_006.png" filter="nearest">
+        <area name="inventory-alya-006" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_007.png" filter="nearest">
+        <area name="inventory-alya-007" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_008.png" filter="nearest">
+        <area name="inventory-alya-008" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_009.png" filter="nearest">
+        <area name="inventory-alya-009" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_010.png" filter="nearest">
+        <area name="inventory-alya-010" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_011.png" filter="nearest">
+        <area name="inventory-alya-011" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_012.png" filter="nearest">
+        <area name="inventory-alya-012" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_013.png" filter="nearest">
+        <area name="inventory-alya-013" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_014.png" filter="nearest">
+        <area name="inventory-alya-014" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_015.png" filter="nearest">
+        <area name="inventory-alya-015" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_016.png" filter="nearest">
+        <area name="inventory-alya-016" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_017.png" filter="nearest">
+        <area name="inventory-alya-017" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_018.png" filter="nearest">
+        <area name="inventory-alya-018" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_019.png" filter="nearest">
+        <area name="inventory-alya-019" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_020.png" filter="nearest">
+        <area name="inventory-alya-020" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_021.png" filter="nearest">
+        <area name="inventory-alya-021" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_022.png" filter="nearest">
+        <area name="inventory-alya-022" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_023.png" filter="nearest">
+        <area name="inventory-alya-023" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_024.png" filter="nearest">
+        <area name="inventory-alya-024" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_025.png" filter="nearest">
+        <area name="inventory-alya-025" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_026.png" filter="nearest">
+        <area name="inventory-alya-026" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_027.png" filter="nearest">
+        <area name="inventory-alya-027" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_028.png" filter="nearest">
+        <area name="inventory-alya-028" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_029.png" filter="nearest">
+        <area name="inventory-alya-029" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_030.png" filter="nearest">
+        <area name="inventory-alya-030" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_031.png" filter="nearest">
+        <area name="inventory-alya-031" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_032.png" filter="nearest">
+        <area name="inventory-alya-032" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_033.png" filter="nearest">
+        <area name="inventory-alya-033" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_034.png" filter="nearest">
+        <area name="inventory-alya-034" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_035.png" filter="nearest">
+        <area name="inventory-alya-035" xywh="*"/>
+    </images>
+
+    <images file="../anim/inventory-alya/InventoryAlya_036.png" filter="nearest">
+        <area name="inventory-alya-036" xywh="*"/>
+    </images>
+
+    <images>
+        <animation name="inventory-alya-animation" timeSource="enabled">
+            <frame ref="inventory-alya-000" duration="80"/>
+            <frame ref="inventory-alya-001" duration="80"/>
+            <frame ref="inventory-alya-002" duration="80"/>
+            <frame ref="inventory-alya-003" duration="80"/>
+            <frame ref="inventory-alya-004" duration="80"/>
+            <frame ref="inventory-alya-005" duration="80"/>
+            <frame ref="inventory-alya-006" duration="80"/>
+            <frame ref="inventory-alya-007" duration="80"/>
+            <frame ref="inventory-alya-008" duration="80"/>
+            <frame ref="inventory-alya-009" duration="80"/>
+            <frame ref="inventory-alya-010" duration="80"/>
+            <frame ref="inventory-alya-011" duration="80"/>
+            <frame ref="inventory-alya-012" duration="80"/>
+            <frame ref="inventory-alya-013" duration="80"/>
+            <frame ref="inventory-alya-014" duration="80"/>
+            <frame ref="inventory-alya-015" duration="80"/>
+            <frame ref="inventory-alya-016" duration="80"/>
+            <frame ref="inventory-alya-017" duration="80"/>
+            <frame ref="inventory-alya-018" duration="80"/>
+            <frame ref="inventory-alya-019" duration="80"/>
+            <frame ref="inventory-alya-020" duration="80"/>
+            <frame ref="inventory-alya-021" duration="80"/>
+            <frame ref="inventory-alya-022" duration="80"/>
+            <frame ref="inventory-alya-023" duration="80"/>
+            <frame ref="inventory-alya-024" duration="80"/>
+            <frame ref="inventory-alya-025" duration="80"/>
+            <frame ref="inventory-alya-026" duration="80"/>
+            <frame ref="inventory-alya-027" duration="80"/>
+            <frame ref="inventory-alya-028" duration="80"/>
+            <frame ref="inventory-alya-029" duration="80"/>
+            <frame ref="inventory-alya-030" duration="80"/>
+            <frame ref="inventory-alya-031" duration="80"/>
+            <frame ref="inventory-alya-032" duration="80"/>
+            <frame ref="inventory-alya-033" duration="80"/>
+            <frame ref="inventory-alya-034" duration="80"/>
+            <frame ref="inventory-alya-035" duration="80"/>
+            <frame ref="inventory-alya-036" duration="80"/>
+        </animation>
+    </images>
+
+</themes>

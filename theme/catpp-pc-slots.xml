@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <!-- Catppuccin Mocha PC slot visuals/states, adapted to Archetype's accent setting. -->
+  <images file="res/custom/pc-window/Catppuccin-PC-Slots.png" filter="nearest">
+    <area name="pcslot.bg.default" xywh="3,1,60,50"/>
+    <area name="pcslot.bg.active" xywh="66,1,60,50"/>
+    <area name="pcslot.inner.default" xywh="3,53,60,50"/>
+    <area name="pcslot.inner.active" xywh="66,53,60,50" tint="alya-accent-color"/>
+    <area name="pcslot.inner.filtered" xywh="129,53,60,50"/>
+    <area name="pcslot.bg.overlay.default" xywh="66,104,60,50"/>
+    <area name="pcslot.bg.overlay.disabled" xywh="3,104,60,50"/>
+    <area name="pcslot.bg.overlay.battlebox" xywh="129,104,60,50"/>
+    <area name="pcslot.border.default" xywh="3,157,60,50"/>
+    <area name="pcslot.border.selected" xywh="66,157,60,50" tint="alya-accent-color"/>
+    <area name="pcslot.border.selected2" xywh="66,157,60,50" inset="-1" tint="alya-accent-color"/>
+    <area name="pcslot.border.filtered" xywh="129,157,60,50"/>
+    <area name="pcslot.border.filtered2" xywh="129,157,60,50" inset="-1"/>
+
+    <composed name="pc-slot.background">
+      <select center="true">
+        <alias ref="pcslot.bg.active" if="filtered"/>
+        <alias ref="pcslot.bg.default"/>
+      </select>
+      <select center="true">
+        <alias ref="pcslot.bg.overlay.disabled" if="obey"/>
+        <alias ref="pcslot.bg.overlay.battlebox" if="battlebox"/>
+      </select>
+      <select center="true">
+        <alias ref="pcslot.inner.filtered" if="selected + filtered"/>
+        <alias ref="pcslot.inner.active" if="selected"/>
+        <alias ref="pcslot.inner.default"/>
+      </select>
+      <select center="true">
+        <alias if="multiselectActive" ref="pcslot.border.filtered"/>
+        <animation if="multiselect" timeSource="keyboardFocus">
+          <frame duration="400" ref="pcslot.border.filtered2" tint="#FFFFFFFF"/>
+          <frame duration="400" ref="pcslot.border.filtered" tint="#FFFFFFFF"/>
+        </animation>
+        <animation if="keyboardFocus" timeSource="keyboardFocus">
+          <frame duration="400" ref="pcslot.border.selected2" tint="#FFFFFFFF"/>
+          <frame duration="400" ref="pcslot.border.selected" tint="#FFFFFFFF"/>
+        </animation>
+        <alias ref="pcslot.border.default"/>
+      </select>
+      <select center="true">
+        <alias ref="pcslot.border.filtered" inset="2" if="filtered"/>
+      </select>
+    </composed>
+
+    <select name="pc-slot-border-while-selected.background">
+      <alias ref="pcslot.border.selected" if="keyboardFocus"/>
+    </select>
+  </images>
+</themes>

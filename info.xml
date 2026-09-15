@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resource name="AlyArchétype" version="3.4.8" description="AlyArchétype — thème final optimisé combinant Archetype et les visuels/options Alya. Nameplates amis/équipe restaurés." author="Jimbo" weblink="https://forums.pokemmo.com/index.php?/topic/149494-gui-archetype">
+    <themes theme_revision="8">
+        <theme path="theme/" name="AlyArchétype" is_mobile="false">
+            <constants>
+                <constant name="pc-window" public_name="PC Box Background" type="IMAGE" default_value="Pokeball">
+                    <whitelist_value>Pokeball</whitelist_value>
+                    <whitelist_value>Loveball</whitelist_value>
+                    <whitelist_value>Mew</whitelist_value>
+                    <whitelist_value>Starters Balls</whitelist_value>
+                    <whitelist_value>Eevelutions</whitelist_value>
+                    <whitelist_value>Pikachu Surf</whitelist_value>
+                    <whitelist_value>Misty</whitelist_value>
+                    <whitelist_value>Field</whitelist_value>
+                    <whitelist_value>Aurorus</whitelist_value>
+                    <whitelist_value>Decrepit Lab PC</whitelist_value>
+                    <whitelist_value>Decrepit Lab Filtered PC</whitelist_value>
+                    <whitelist_value>Landscape PC</whitelist_value>
+                    <whitelist_value>Beach PC (Bright)</whitelist_value>
+                </constant>
+                <constant name="summary_filename" public_name="Pokémon Summary Style" type="STRING" default_value="Default.png">
+                    <whitelist_value>Default.png</whitelist_value>
+                    <whitelist_value>HD_Sprites.png</whitelist_value>
+                    <whitelist_value>Sea.png</whitelist_value>
+                    <whitelist_value>Night.png</whitelist_value>
+                </constant>
+                <constant name="summary_frame" public_name="Pokémon Summary Background" type="IMAGE" default_value="Static Summary">
+                    <whitelist_value>Static Summary</whitelist_value>
+                    <whitelist_value>Sky</whitelist_value>
+                    <whitelist_value>ALYA</whitelist_value>
+                    <whitelist_value>Aletheia</whitelist_value>
+                    <whitelist_value>Beach Night</whitelist_value>
+                    <whitelist_value>Arena</whitelist_value>
+                    <whitelist_value>Castle</whitelist_value>
+                    <whitelist_value>Crystal Cave</whitelist_value>
+                    <whitelist_value>Dark Forest</whitelist_value>
+                    <whitelist_value>Deep Earth</whitelist_value>
+                    <whitelist_value>Field Dusk</whitelist_value>
+                    <whitelist_value>Field Night</whitelist_value>
+                    <whitelist_value>Grassy Canyon Day</whitelist_value>
+                    <whitelist_value>Grassy Canyon Night</whitelist_value>
+                    <whitelist_value>Jacaranda</whitelist_value>
+                    <whitelist_value>Lab</whitelist_value>
+                    <whitelist_value>Red Maple</whitelist_value>
+                    <whitelist_value>Sakura</whitelist_value>
+                    <whitelist_value>Snowy Mountain</whitelist_value>
+                    <whitelist_value>Volcanic Night</whitelist_value>
+                </constant>
+                <constant name="trainer-card_background" public_name="Weakness Table on Trainercard" type="IMAGE" default_value="No Table">
+                    <whitelist_value>No Table</whitelist_value>
+                    <whitelist_value>Weakness Table</whitelist_value>
+                </constant>
+                <constant name="hud_bar_style" public_name="Bottom Menu Bar Style" type="IMAGE" default_value="HUD Bar Archetype">
+                    <whitelist_value>HUD Bar Archetype</whitelist_value>
+                    <whitelist_value>HUD Bar Alya</whitelist_value>
+                </constant>
+                <constant name="transparent_hotkey" public_name="Transparent Hotkey" type="IMAGE" default_value="Normal">
+                    <whitelist_value>Normal</whitelist_value>
+                    <whitelist_value>Transparent</whitelist_value>
+                </constant>
+                <constant name="select_animation" public_name="Login Animation" type="IMAGE" default_value="Snorlax Animation">
+                    <whitelist_value>Snorlax No Animation</whitelist_value>
+                    <whitelist_value>Snorlax Animation</whitelist_value>
+                    <whitelist_value>Pikachu</whitelist_value>
+                    <whitelist_value>Eevee</whitelist_value>
+                    <whitelist_value>Clouds</whitelist_value>
+                    <whitelist_value>Doraemon World</whitelist_value>
+                    <whitelist_value>Lavender Field (Bright)</whitelist_value>
+                    <whitelist_value>Hatsune</whitelist_value>
+                    <whitelist_value>Vibrant (Bright)</whitelist_value>
+                    <whitelist_value>Eevee Kawaii (Bright)</whitelist_value>
+                    <whitelist_value>Eevee sitting (Bright)</whitelist_value>
+                    <whitelist_value>Gengar</whitelist_value>
+                    <whitelist_value>Kawaii Eevee (Bright)</whitelist_value>
+                    <whitelist_value>Lugia</whitelist_value>
+                </constant>
+                <constant name="team_chat_color" public_name="Team Chat Color" type="COLOR" default_value="#FFD700">
+                    <whitelist_value public_name="Orange vif">#FF7A00</whitelist_value>
+                    <whitelist_value public_name="Jaune">#FFD700</whitelist_value>
+                    <whitelist_value public_name="Rouge vif">#FF2020</whitelist_value>
+                    <whitelist_value public_name="Vert fluo">#39FF14</whitelist_value>
+                    <whitelist_value public_name="Jaune fluo">#FFFF00</whitelist_value>
+                    <whitelist_value public_name="Rose vif">#FF1493</whitelist_value>
+                </constant>
+                <constant name="alya_chat_variant" public_name="Chat Style" type="IMAGE" default_value="ALYA Chat">
+                    <whitelist_value>ALYA Chat</whitelist_value>
+                    <whitelist_value>ALYA WAR Chat</whitelist_value>
+                </constant>
+                <constant name="alya_breeding_variant" public_name="Breeding Window Style" type="IMAGE" default_value="ALYA Breeding">
+                    <whitelist_value>ALYA Breeding</whitelist_value>
+                    <whitelist_value>ALYA WAR Breeding</whitelist_value>
+                </constant>
+                <constant name="alya_incubator_variant" public_name="Incubator Info Style" type="IMAGE" default_value="ALYA Incubator">
+                    <whitelist_value>ALYA Incubator</whitelist_value>
+                    <whitelist_value>ALYA WAR Incubator</whitelist_value>
+                </constant>
+                <constant name="alya-accent-color" public_name="Archetype / Catppuccin Accent Color" type="CONSTANT" default_value="Archetype Blue">
+                    <whitelist_value>Archetype Blue</whitelist_value>
+                    <whitelist_value>ALYA Pink</whitelist_value>
+                    <whitelist_value>Lavender Color</whitelist_value>
+                    <whitelist_value>Rosewater Color</whitelist_value>
+                    <whitelist_value>Flamingo Color</whitelist_value>
+                    <whitelist_value>Pink Color</whitelist_value>
+                    <whitelist_value>Mauve Color</whitelist_value>
+                    <whitelist_value>Red Color</whitelist_value>
+                    <whitelist_value>Maroon Color</whitelist_value>
+                    <whitelist_value>Peach Color</whitelist_value>
+                    <whitelist_value>Yellow Color</whitelist_value>
+                    <whitelist_value>Green Color</whitelist_value>
+                    <whitelist_value>Teal Color</whitelist_value>
+                    <whitelist_value>Sky Color</whitelist_value>
+                    <whitelist_value>Sapphire Color</whitelist_value>
+                    <whitelist_value>Blue Color</whitelist_value>
+                </constant>
+                <constant name="alya-shiny-caught-background" public_name="Shiny Caught Background" type="IMAGE" default_value="monster-caught.background">
+                    <whitelist_value>monster-caught.background</whitelist_value>
+                    <whitelist_value>Stars in the Sky</whitelist_value>
+                    <whitelist_value>Night Sky</whitelist_value>
+                    <whitelist_value>Flower Field (Bright)</whitelist_value>
+                    <whitelist_value>Purple Sky</whitelist_value>
+                    <whitelist_value>Gray Clouds</whitelist_value>
+                    <whitelist_value>Old Default</whitelist_value>
+                </constant>
+                <constant name="alya-counter-minimized" public_name="Enc Counter Minimized" type="IMAGE" default_value="frame-draggable-alpha.background">
+                    <whitelist_value>frame-draggable-alpha.background</whitelist_value>
+                    <whitelist_value>Night Sky</whitelist_value>
+                    <whitelist_value>Flower</whitelist_value>
+                    <whitelist_value>Sunset</whitelist_value>
+                    <whitelist_value>Simple Dark Default</whitelist_value>
+                    <whitelist_value>Simple Rainbow</whitelist_value>
+                    <whitelist_value>Simple Bright Accent Color</whitelist_value>
+                    <whitelist_value>Aggron (Vartiou)</whitelist_value>
+                    <whitelist_value>Celibi (Vartiou)</whitelist_value>
+                    <whitelist_value>Darkrai (Vartiou)</whitelist_value>
+                    <whitelist_value>Haxorus (Vartiou)</whitelist_value>
+                    <whitelist_value>Larvitar (Vartiou)</whitelist_value>
+                    <whitelist_value>Milotic (Vartiou)</whitelist_value>
+                    <whitelist_value>Porygon (Vartiou)</whitelist_value>
+                    <whitelist_value>Skitty (Vartiou)</whitelist_value>
+                    <whitelist_value>Smeargle (Vartiou)</whitelist_value>
+                    <whitelist_value>Umbreon (Vartiou)</whitelist_value>
+                    <whitelist_value>Volcarona (Vartiou)</whitelist_value>
+                </constant>
+                <constant name="alya-counter-maximized" public_name="Enc Counter Maximized" type="IMAGE" default_value="frame-draggable-alpha.background">
+                    <whitelist_value>frame-draggable-alpha.background</whitelist_value>
+                    <whitelist_value>Night Sky</whitelist_value>
+                    <whitelist_value>Flower</whitelist_value>
+                    <whitelist_value>Sunset</whitelist_value>
+                    <whitelist_value>Simple Dark Default</whitelist_value>
+                    <whitelist_value>Simple Rainbow</whitelist_value>
+                    <whitelist_value>Simple Bright Accent Color</whitelist_value>
+                    <whitelist_value>Aggron (Vartiou)</whitelist_value>
+                    <whitelist_value>Celibi (Vartiou)</whitelist_value>
+                    <whitelist_value>Darkrai (Vartiou)</whitelist_value>
+                    <whitelist_value>Haxorus (Vartiou)</whitelist_value>
+                    <whitelist_value>Larvitar (Vartiou)</whitelist_value>
+                    <whitelist_value>Milotic (Vartiou)</whitelist_value>
+                    <whitelist_value>Porygon (Vartiou)</whitelist_value>
+                    <whitelist_value>Skitty (Vartiou)</whitelist_value>
+                    <whitelist_value>Smeargle (Vartiou)</whitelist_value>
+                    <whitelist_value>Umbreon (Vartiou)</whitelist_value>
+                    <whitelist_value>Volcarona (Vartiou)</whitelist_value>
+                </constant>
+                <constant name="alya-battle-hud" public_name="Battle Hud Background" type="IMAGE" default_value="battleframebg">
+                    <whitelist_value>battleframebg</whitelist_value>
+                    <whitelist_value>Hide Battle Hud</whitelist_value>
+                    <whitelist_value>Border</whitelist_value>
+                    <whitelist_value>Border More Transparent</whitelist_value>
+                    <whitelist_value>Border Solid</whitelist_value>
+                    <whitelist_value>No Border</whitelist_value>
+                    <whitelist_value>No Border More Transparent</whitelist_value>
+                    <whitelist_value>No Border Solid</whitelist_value>
+                </constant>
+                <constant name="alya-bag-height" public_name="Bag Height (re-open bag)" type="INT" default_value="433">
+                    <whitelist_value>433</whitelist_value>
+                    <whitelist_value>378</whitelist_value>
+                    <whitelist_value>567</whitelist_value>
+                    <whitelist_value>756</whitelist_value>
+                </constant>
+                <constant name="alya-dex-height" public_name="Dex Height (re-open dex)" type="INT" default_value="250">
+                    <whitelist_value>250</whitelist_value>
+                    <whitelist_value>405</whitelist_value>
+                    <whitelist_value>610</whitelist_value>
+                </constant>
+                <constant name="alya-notif-background" public_name="Notification Background" type="IMAGE" default_value="Show Notif Background">
+                    <whitelist_value>Show Notif Background</whitelist_value>
+                    <whitelist_value>Hide Notif Background</whitelist_value>
+                </constant>
+                <constant name="alya-notif-font" public_name="Notification Font" type="FONT" default_value="Default White Notif Font">
+                    <whitelist_value>Default White Notif Font</whitelist_value>
+                    <whitelist_value>Accent Color Notif Font</whitelist_value>
+                    <whitelist_value>Hide Notif Font</whitelist_value>
+                </constant>
+                <constant name="alya_notif_font_size" public_name="Notification Font Size" type="INT" default_value="14">
+                    <whitelist_value>10</whitelist_value>
+                    <whitelist_value>11</whitelist_value>
+                    <whitelist_value>12</whitelist_value>
+                    <whitelist_value>13</whitelist_value>
+                    <whitelist_value>14</whitelist_value>
+                    <whitelist_value>15</whitelist_value>
+                    <whitelist_value>16</whitelist_value>
+                </constant>
+                <constant name="alya_chat_font_size" public_name="Chat Font Size" type="INT" default_value="14">
+                    <whitelist_value>10</whitelist_value>
+                    <whitelist_value>11</whitelist_value>
+                    <whitelist_value>12</whitelist_value>
+                    <whitelist_value>13</whitelist_value>
+                    <whitelist_value>14</whitelist_value>
+                    <whitelist_value>15</whitelist_value>
+                    <whitelist_value>16</whitelist_value>
+                </constant>
+                <constant name="alya-chat-link-color" public_name="Chat Color: Link" type="COLOR" default_value="#00e6b8" />
+                <constant name="alya-chat-whisper-color" public_name="Chat Color: Whisper" type="COLOR" default_value="#a6e3a1" />
+                <constant name="alya-chat-battle-color" public_name="Chat Color: Battle" type="COLOR" default_value="#f4fc9a" />
+                <constant name="alya-chat-trade-color" public_name="Chat Color: Trade" type="COLOR" default_value="#FF99FF" />
+                <constant name="alya-chat-global-color" public_name="Chat Color: Global" type="COLOR" default_value="#94e2d5" />
+                <constant name="alya-chat-channel-color" public_name="Chat Color: Channel" type="COLOR" default_value="#f0cf81" />
+                <constant name="alya-chat-normal-color" public_name="Chat Color: Normal" type="COLOR" default_value="#cdd6f4" />
+                <constant name="alya-chat-shout-color" public_name="Chat Color: Shout" type="COLOR" default_value="#FF9900" />
+            </constants>
+        </theme>
+    </themes>
+    <strings string_revision="1">
+        <string path="Strings/alya_fast_en.xml" />
+        <string path="Strings/alya_fast_fr.xml" />
+        <string path="Strings/alya_fast_sinnoh_fr.xml" />
+        <string path="Strings/alya_fast_unova0_fr.xml" />
+        <string path="Strings/alya_fast_unova1_fr.xml" />
+        <string path="Strings/alya_fast_johto_fr.xml" />
+        <string path="Strings/alya_fast_sinnoh_en.xml" />
+        <string path="Strings/alya_fast_unova0_en.xml" />
+        <string path="Strings/alya_fast_unova1_en.xml" />
+        <string path="Strings/alya_fast_johto_en.xml" />
+    </strings>
+</resource>

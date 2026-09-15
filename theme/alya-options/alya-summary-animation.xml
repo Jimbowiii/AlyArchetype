@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+    <images file="../anim/alya/ALYA_000.jpg" filter="nearest">
+        <area name="alya-summary-000" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_001.jpg" filter="nearest">
+        <area name="alya-summary-001" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_002.jpg" filter="nearest">
+        <area name="alya-summary-002" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_003.jpg" filter="nearest">
+        <area name="alya-summary-003" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_004.jpg" filter="nearest">
+        <area name="alya-summary-004" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_005.jpg" filter="nearest">
+        <area name="alya-summary-005" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_006.jpg" filter="nearest">
+        <area name="alya-summary-006" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_007.jpg" filter="nearest">
+        <area name="alya-summary-007" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_008.jpg" filter="nearest">
+        <area name="alya-summary-008" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_009.jpg" filter="nearest">
+        <area name="alya-summary-009" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_010.jpg" filter="nearest">
+        <area name="alya-summary-010" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_011.jpg" filter="nearest">
+        <area name="alya-summary-011" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_012.jpg" filter="nearest">
+        <area name="alya-summary-012" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_013.jpg" filter="nearest">
+        <area name="alya-summary-013" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_014.jpg" filter="nearest">
+        <area name="alya-summary-014" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_015.jpg" filter="nearest">
+        <area name="alya-summary-015" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_016.jpg" filter="nearest">
+        <area name="alya-summary-016" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_017.jpg" filter="nearest">
+        <area name="alya-summary-017" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_018.jpg" filter="nearest">
+        <area name="alya-summary-018" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_019.jpg" filter="nearest">
+        <area name="alya-summary-019" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_020.jpg" filter="nearest">
+        <area name="alya-summary-020" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_021.jpg" filter="nearest">
+        <area name="alya-summary-021" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_022.jpg" filter="nearest">
+        <area name="alya-summary-022" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_023.jpg" filter="nearest">
+        <area name="alya-summary-023" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_024.jpg" filter="nearest">
+        <area name="alya-summary-024" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_025.jpg" filter="nearest">
+        <area name="alya-summary-025" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_026.jpg" filter="nearest">
+        <area name="alya-summary-026" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_027.jpg" filter="nearest">
+        <area name="alya-summary-027" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_028.jpg" filter="nearest">
+        <area name="alya-summary-028" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_029.jpg" filter="nearest">
+        <area name="alya-summary-029" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_030.jpg" filter="nearest">
+        <area name="alya-summary-030" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_031.jpg" filter="nearest">
+        <area name="alya-summary-031" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_032.jpg" filter="nearest">
+        <area name="alya-summary-032" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_033.jpg" filter="nearest">
+        <area name="alya-summary-033" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_034.jpg" filter="nearest">
+        <area name="alya-summary-034" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_035.jpg" filter="nearest">
+        <area name="alya-summary-035" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_036.jpg" filter="nearest">
+        <area name="alya-summary-036" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_037.jpg" filter="nearest">
+        <area name="alya-summary-037" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_038.jpg" filter="nearest">
+        <area name="alya-summary-038" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_039.jpg" filter="nearest">
+        <area name="alya-summary-039" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_040.jpg" filter="nearest">
+        <area name="alya-summary-040" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_041.jpg" filter="nearest">
+        <area name="alya-summary-041" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_042.jpg" filter="nearest">
+        <area name="alya-summary-042" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_043.jpg" filter="nearest">
+        <area name="alya-summary-043" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_044.jpg" filter="nearest">
+        <area name="alya-summary-044" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_045.jpg" filter="nearest">
+        <area name="alya-summary-045" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_046.jpg" filter="nearest">
+        <area name="alya-summary-046" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_047.jpg" filter="nearest">
+        <area name="alya-summary-047" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_048.jpg" filter="nearest">
+        <area name="alya-summary-048" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_049.jpg" filter="nearest">
+        <area name="alya-summary-049" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_050.jpg" filter="nearest">
+        <area name="alya-summary-050" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_051.jpg" filter="nearest">
+        <area name="alya-summary-051" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_052.jpg" filter="nearest">
+        <area name="alya-summary-052" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_053.jpg" filter="nearest">
+        <area name="alya-summary-053" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_054.jpg" filter="nearest">
+        <area name="alya-summary-054" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_055.jpg" filter="nearest">
+        <area name="alya-summary-055" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_056.jpg" filter="nearest">
+        <area name="alya-summary-056" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_057.jpg" filter="nearest">
+        <area name="alya-summary-057" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_058.jpg" filter="nearest">
+        <area name="alya-summary-058" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_059.jpg" filter="nearest">
+        <area name="alya-summary-059" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_060.jpg" filter="nearest">
+        <area name="alya-summary-060" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_061.jpg" filter="nearest">
+        <area name="alya-summary-061" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_062.jpg" filter="nearest">
+        <area name="alya-summary-062" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_063.jpg" filter="nearest">
+        <area name="alya-summary-063" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_064.jpg" filter="nearest">
+        <area name="alya-summary-064" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_065.jpg" filter="nearest">
+        <area name="alya-summary-065" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_066.jpg" filter="nearest">
+        <area name="alya-summary-066" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_067.jpg" filter="nearest">
+        <area name="alya-summary-067" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_068.jpg" filter="nearest">
+        <area name="alya-summary-068" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_069.jpg" filter="nearest">
+        <area name="alya-summary-069" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_070.jpg" filter="nearest">
+        <area name="alya-summary-070" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_071.jpg" filter="nearest">
+        <area name="alya-summary-071" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_072.jpg" filter="nearest">
+        <area name="alya-summary-072" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_073.jpg" filter="nearest">
+        <area name="alya-summary-073" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_074.jpg" filter="nearest">
+        <area name="alya-summary-074" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_075.jpg" filter="nearest">
+        <area name="alya-summary-075" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_076.jpg" filter="nearest">
+        <area name="alya-summary-076" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_077.jpg" filter="nearest">
+        <area name="alya-summary-077" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_078.jpg" filter="nearest">
+        <area name="alya-summary-078" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_079.jpg" filter="nearest">
+        <area name="alya-summary-079" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_080.jpg" filter="nearest">
+        <area name="alya-summary-080" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_081.jpg" filter="nearest">
+        <area name="alya-summary-081" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_082.jpg" filter="nearest">
+        <area name="alya-summary-082" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_083.jpg" filter="nearest">
+        <area name="alya-summary-083" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_084.jpg" filter="nearest">
+        <area name="alya-summary-084" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_085.jpg" filter="nearest">
+        <area name="alya-summary-085" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_086.jpg" filter="nearest">
+        <area name="alya-summary-086" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_087.jpg" filter="nearest">
+        <area name="alya-summary-087" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_088.jpg" filter="nearest">
+        <area name="alya-summary-088" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_089.jpg" filter="nearest">
+        <area name="alya-summary-089" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_090.jpg" filter="nearest">
+        <area name="alya-summary-090" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_091.jpg" filter="nearest">
+        <area name="alya-summary-091" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_092.jpg" filter="nearest">
+        <area name="alya-summary-092" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_093.jpg" filter="nearest">
+        <area name="alya-summary-093" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_094.jpg" filter="nearest">
+        <area name="alya-summary-094" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_095.jpg" filter="nearest">
+        <area name="alya-summary-095" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_096.jpg" filter="nearest">
+        <area name="alya-summary-096" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_097.jpg" filter="nearest">
+        <area name="alya-summary-097" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_098.jpg" filter="nearest">
+        <area name="alya-summary-098" xywh="*"/>
+    </images>
+    <images file="../anim/alya/ALYA_099.jpg" filter="nearest">
+        <area name="alya-summary-099" xywh="*"/>
+    </images>
+    <images>
+        <animation name="ALYA" timeSource="enabled">
+            <frame ref="alya-summary-000" duration="80"/>
+            <frame ref="alya-summary-001" duration="80"/>
+            <frame ref="alya-summary-002" duration="80"/>
+            <frame ref="alya-summary-003" duration="80"/>
+            <frame ref="alya-summary-004" duration="80"/>
+            <frame ref="alya-summary-005" duration="80"/>
+            <frame ref="alya-summary-006" duration="80"/>
+            <frame ref="alya-summary-007" duration="80"/>
+            <frame ref="alya-summary-008" duration="80"/>
+            <frame ref="alya-summary-009" duration="80"/>
+            <frame ref="alya-summary-010" duration="80"/>
+            <frame ref="alya-summary-011" duration="80"/>
+            <frame ref="alya-summary-012" duration="80"/>
+            <frame ref="alya-summary-013" duration="80"/>
+            <frame ref="alya-summary-014" duration="80"/>
+            <frame ref="alya-summary-015" duration="80"/>
+            <frame ref="alya-summary-016" duration="80"/>
+            <frame ref="alya-summary-017" duration="80"/>
+            <frame ref="alya-summary-018" duration="80"/>
+            <frame ref="alya-summary-019" duration="80"/>
+            <frame ref="alya-summary-020" duration="80"/>
+            <frame ref="alya-summary-021" duration="80"/>
+            <frame ref="alya-summary-022" duration="80"/>
+            <frame ref="alya-summary-023" duration="80"/>
+            <frame ref="alya-summary-024" duration="80"/>
+            <frame ref="alya-summary-025" duration="80"/>
+            <frame ref="alya-summary-026" duration="80"/>
+            <frame ref="alya-summary-027" duration="80"/>
+            <frame ref="alya-summary-028" duration="80"/>
+            <frame ref="alya-summary-029" duration="80"/>
+            <frame ref="alya-summary-030" duration="80"/>
+            <frame ref="alya-summary-031" duration="80"/>
+            <frame ref="alya-summary-032" duration="80"/>
+            <frame ref="alya-summary-033" duration="80"/>
+            <frame ref="alya-summary-034" duration="80"/>
+            <frame ref="alya-summary-035" duration="80"/>
+            <frame ref="alya-summary-036" duration="80"/>
+            <frame ref="alya-summary-037" duration="80"/>
+            <frame ref="alya-summary-038" duration="80"/>
+            <frame ref="alya-summary-039" duration="80"/>
+            <frame ref="alya-summary-040" duration="80"/>
+            <frame ref="alya-summary-041" duration="80"/>
+            <frame ref="alya-summary-042" duration="80"/>
+            <frame ref="alya-summary-043" duration="80"/>
+            <frame ref="alya-summary-044" duration="80"/>
+            <frame ref="alya-summary-045" duration="80"/>
+            <frame ref="alya-summary-046" duration="80"/>
+            <frame ref="alya-summary-047" duration="80"/>
+            <frame ref="alya-summary-048" duration="80"/>
+            <frame ref="alya-summary-049" duration="80"/>
+            <frame ref="alya-summary-050" duration="80"/>
+            <frame ref="alya-summary-051" duration="80"/>
+            <frame ref="alya-summary-052" duration="80"/>
+            <frame ref="alya-summary-053" duration="80"/>
+            <frame ref="alya-summary-054" duration="80"/>
+            <frame ref="alya-summary-055" duration="80"/>
+            <frame ref="alya-summary-056" duration="80"/>
+            <frame ref="alya-summary-057" duration="80"/>
+            <frame ref="alya-summary-058" duration="80"/>
+            <frame ref="alya-summary-059" duration="80"/>
+            <frame ref="alya-summary-060" duration="80"/>
+            <frame ref="alya-summary-061" duration="80"/>
+            <frame ref="alya-summary-062" duration="80"/>
+            <frame ref="alya-summary-063" duration="80"/>
+            <frame ref="alya-summary-064" duration="80"/>
+            <frame ref="alya-summary-065" duration="80"/>
+            <frame ref="alya-summary-066" duration="80"/>
+            <frame ref="alya-summary-067" duration="80"/>
+            <frame ref="alya-summary-068" duration="80"/>
+            <frame ref="alya-summary-069" duration="80"/>
+            <frame ref="alya-summary-070" duration="80"/>
+            <frame ref="alya-summary-071" duration="80"/>
+            <frame ref="alya-summary-072" duration="80"/>
+            <frame ref="alya-summary-073" duration="80"/>
+            <frame ref="alya-summary-074" duration="80"/>
+            <frame ref="alya-summary-075" duration="80"/>
+            <frame ref="alya-summary-076" duration="80"/>
+            <frame ref="alya-summary-077" duration="80"/>
+            <frame ref="alya-summary-078" duration="80"/>
+            <frame ref="alya-summary-079" duration="80"/>
+            <frame ref="alya-summary-080" duration="80"/>
+            <frame ref="alya-summary-081" duration="80"/>
+            <frame ref="alya-summary-082" duration="80"/>
+            <frame ref="alya-summary-083" duration="80"/>
+            <frame ref="alya-summary-084" duration="80"/>
+            <frame ref="alya-summary-085" duration="80"/>
+            <frame ref="alya-summary-086" duration="80"/>
+            <frame ref="alya-summary-087" duration="80"/>
+            <frame ref="alya-summary-088" duration="80"/>
+            <frame ref="alya-summary-089" duration="80"/>
+            <frame ref="alya-summary-090" duration="80"/>
+            <frame ref="alya-summary-091" duration="80"/>
+            <frame ref="alya-summary-092" duration="80"/>
+            <frame ref="alya-summary-093" duration="80"/>
+            <frame ref="alya-summary-094" duration="80"/>
+            <frame ref="alya-summary-095" duration="80"/>
+            <frame ref="alya-summary-096" duration="80"/>
+            <frame ref="alya-summary-097" duration="80"/>
+            <frame ref="alya-summary-098" duration="80"/>
+            <frame ref="alya-summary-099" duration="80"/>
+        </animation>
+    </images>
+</themes>

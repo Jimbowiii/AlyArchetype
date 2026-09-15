@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+    <images file="../anim/aletheia/Aletheia_000.jpg" filter="nearest">
+        <area name="aletheia-summary-000" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_001.jpg" filter="nearest">
+        <area name="aletheia-summary-001" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_002.jpg" filter="nearest">
+        <area name="aletheia-summary-002" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_003.jpg" filter="nearest">
+        <area name="aletheia-summary-003" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_004.jpg" filter="nearest">
+        <area name="aletheia-summary-004" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_005.jpg" filter="nearest">
+        <area name="aletheia-summary-005" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_006.jpg" filter="nearest">
+        <area name="aletheia-summary-006" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_007.jpg" filter="nearest">
+        <area name="aletheia-summary-007" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_008.jpg" filter="nearest">
+        <area name="aletheia-summary-008" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_009.jpg" filter="nearest">
+        <area name="aletheia-summary-009" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_010.jpg" filter="nearest">
+        <area name="aletheia-summary-010" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_011.jpg" filter="nearest">
+        <area name="aletheia-summary-011" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_012.jpg" filter="nearest">
+        <area name="aletheia-summary-012" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_013.jpg" filter="nearest">
+        <area name="aletheia-summary-013" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_014.jpg" filter="nearest">
+        <area name="aletheia-summary-014" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_015.jpg" filter="nearest">
+        <area name="aletheia-summary-015" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_016.jpg" filter="nearest">
+        <area name="aletheia-summary-016" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_017.jpg" filter="nearest">
+        <area name="aletheia-summary-017" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_018.jpg" filter="nearest">
+        <area name="aletheia-summary-018" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_019.jpg" filter="nearest">
+        <area name="aletheia-summary-019" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_020.jpg" filter="nearest">
+        <area name="aletheia-summary-020" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_021.jpg" filter="nearest">
+        <area name="aletheia-summary-021" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_022.jpg" filter="nearest">
+        <area name="aletheia-summary-022" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_023.jpg" filter="nearest">
+        <area name="aletheia-summary-023" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_024.jpg" filter="nearest">
+        <area name="aletheia-summary-024" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_025.jpg" filter="nearest">
+        <area name="aletheia-summary-025" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_026.jpg" filter="nearest">
+        <area name="aletheia-summary-026" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_027.jpg" filter="nearest">
+        <area name="aletheia-summary-027" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_028.jpg" filter="nearest">
+        <area name="aletheia-summary-028" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_029.jpg" filter="nearest">
+        <area name="aletheia-summary-029" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_030.jpg" filter="nearest">
+        <area name="aletheia-summary-030" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_031.jpg" filter="nearest">
+        <area name="aletheia-summary-031" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_032.jpg" filter="nearest">
+        <area name="aletheia-summary-032" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_033.jpg" filter="nearest">
+        <area name="aletheia-summary-033" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_034.jpg" filter="nearest">
+        <area name="aletheia-summary-034" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_035.jpg" filter="nearest">
+        <area name="aletheia-summary-035" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_036.jpg" filter="nearest">
+        <area name="aletheia-summary-036" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_037.jpg" filter="nearest">
+        <area name="aletheia-summary-037" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_038.jpg" filter="nearest">
+        <area name="aletheia-summary-038" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_039.jpg" filter="nearest">
+        <area name="aletheia-summary-039" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_040.jpg" filter="nearest">
+        <area name="aletheia-summary-040" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_041.jpg" filter="nearest">
+        <area name="aletheia-summary-041" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_042.jpg" filter="nearest">
+        <area name="aletheia-summary-042" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_043.jpg" filter="nearest">
+        <area name="aletheia-summary-043" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_044.jpg" filter="nearest">
+        <area name="aletheia-summary-044" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_045.jpg" filter="nearest">
+        <area name="aletheia-summary-045" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_046.jpg" filter="nearest">
+        <area name="aletheia-summary-046" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_047.jpg" filter="nearest">
+        <area name="aletheia-summary-047" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_048.jpg" filter="nearest">
+        <area name="aletheia-summary-048" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_049.jpg" filter="nearest">
+        <area name="aletheia-summary-049" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_050.jpg" filter="nearest">
+        <area name="aletheia-summary-050" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_051.jpg" filter="nearest">
+        <area name="aletheia-summary-051" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_052.jpg" filter="nearest">
+        <area name="aletheia-summary-052" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_053.jpg" filter="nearest">
+        <area name="aletheia-summary-053" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_054.jpg" filter="nearest">
+        <area name="aletheia-summary-054" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_055.jpg" filter="nearest">
+        <area name="aletheia-summary-055" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_056.jpg" filter="nearest">
+        <area name="aletheia-summary-056" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_057.jpg" filter="nearest">
+        <area name="aletheia-summary-057" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_058.jpg" filter="nearest">
+        <area name="aletheia-summary-058" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_059.jpg" filter="nearest">
+        <area name="aletheia-summary-059" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_060.jpg" filter="nearest">
+        <area name="aletheia-summary-060" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_061.jpg" filter="nearest">
+        <area name="aletheia-summary-061" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_062.jpg" filter="nearest">
+        <area name="aletheia-summary-062" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_063.jpg" filter="nearest">
+        <area name="aletheia-summary-063" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_064.jpg" filter="nearest">
+        <area name="aletheia-summary-064" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_065.jpg" filter="nearest">
+        <area name="aletheia-summary-065" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_066.jpg" filter="nearest">
+        <area name="aletheia-summary-066" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_067.jpg" filter="nearest">
+        <area name="aletheia-summary-067" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_068.jpg" filter="nearest">
+        <area name="aletheia-summary-068" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_069.jpg" filter="nearest">
+        <area name="aletheia-summary-069" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_070.jpg" filter="nearest">
+        <area name="aletheia-summary-070" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_071.jpg" filter="nearest">
+        <area name="aletheia-summary-071" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_072.jpg" filter="nearest">
+        <area name="aletheia-summary-072" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_073.jpg" filter="nearest">
+        <area name="aletheia-summary-073" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_074.jpg" filter="nearest">
+        <area name="aletheia-summary-074" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_075.jpg" filter="nearest">
+        <area name="aletheia-summary-075" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_076.jpg" filter="nearest">
+        <area name="aletheia-summary-076" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_077.jpg" filter="nearest">
+        <area name="aletheia-summary-077" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_078.jpg" filter="nearest">
+        <area name="aletheia-summary-078" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_079.jpg" filter="nearest">
+        <area name="aletheia-summary-079" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_080.jpg" filter="nearest">
+        <area name="aletheia-summary-080" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_081.jpg" filter="nearest">
+        <area name="aletheia-summary-081" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_082.jpg" filter="nearest">
+        <area name="aletheia-summary-082" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_083.jpg" filter="nearest">
+        <area name="aletheia-summary-083" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_084.jpg" filter="nearest">
+        <area name="aletheia-summary-084" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_085.jpg" filter="nearest">
+        <area name="aletheia-summary-085" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_086.jpg" filter="nearest">
+        <area name="aletheia-summary-086" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_087.jpg" filter="nearest">
+        <area name="aletheia-summary-087" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_088.jpg" filter="nearest">
+        <area name="aletheia-summary-088" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_089.jpg" filter="nearest">
+        <area name="aletheia-summary-089" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_090.jpg" filter="nearest">
+        <area name="aletheia-summary-090" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_091.jpg" filter="nearest">
+        <area name="aletheia-summary-091" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_092.jpg" filter="nearest">
+        <area name="aletheia-summary-092" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_093.jpg" filter="nearest">
+        <area name="aletheia-summary-093" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_094.jpg" filter="nearest">
+        <area name="aletheia-summary-094" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_095.jpg" filter="nearest">
+        <area name="aletheia-summary-095" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_096.jpg" filter="nearest">
+        <area name="aletheia-summary-096" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_097.jpg" filter="nearest">
+        <area name="aletheia-summary-097" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_098.jpg" filter="nearest">
+        <area name="aletheia-summary-098" xywh="*"/>
+    </images>
+    <images file="../anim/aletheia/Aletheia_099.jpg" filter="nearest">
+        <area name="aletheia-summary-099" xywh="*"/>
+    </images>
+    <images>
+        <animation name="Aletheia" timeSource="enabled">
+            <frame ref="aletheia-summary-000" duration="80"/>
+            <frame ref="aletheia-summary-001" duration="80"/>
+            <frame ref="aletheia-summary-002" duration="80"/>
+            <frame ref="aletheia-summary-003" duration="80"/>
+            <frame ref="aletheia-summary-004" duration="80"/>
+            <frame ref="aletheia-summary-005" duration="80"/>
+            <frame ref="aletheia-summary-006" duration="80"/>
+            <frame ref="aletheia-summary-007" duration="80"/>
+            <frame ref="aletheia-summary-008" duration="80"/>
+            <frame ref="aletheia-summary-009" duration="80"/>
+            <frame ref="aletheia-summary-010" duration="80"/>
+            <frame ref="aletheia-summary-011" duration="80"/>
+            <frame ref="aletheia-summary-012" duration="80"/>
+            <frame ref="aletheia-summary-013" duration="80"/>
+            <frame ref="aletheia-summary-014" duration="80"/>
+            <frame ref="aletheia-summary-015" duration="80"/>
+            <frame ref="aletheia-summary-016" duration="80"/>
+            <frame ref="aletheia-summary-017" duration="80"/>
+            <frame ref="aletheia-summary-018" duration="80"/>
+            <frame ref="aletheia-summary-019" duration="80"/>
+            <frame ref="aletheia-summary-020" duration="80"/>
+            <frame ref="aletheia-summary-021" duration="80"/>
+            <frame ref="aletheia-summary-022" duration="80"/>
+            <frame ref="aletheia-summary-023" duration="80"/>
+            <frame ref="aletheia-summary-024" duration="80"/>
+            <frame ref="aletheia-summary-025" duration="80"/>
+            <frame ref="aletheia-summary-026" duration="80"/>
+            <frame ref="aletheia-summary-027" duration="80"/>
+            <frame ref="aletheia-summary-028" duration="80"/>
+            <frame ref="aletheia-summary-029" duration="80"/>
+            <frame ref="aletheia-summary-030" duration="80"/>
+            <frame ref="aletheia-summary-031" duration="80"/>
+            <frame ref="aletheia-summary-032" duration="80"/>
+            <frame ref="aletheia-summary-033" duration="80"/>
+            <frame ref="aletheia-summary-034" duration="80"/>
+            <frame ref="aletheia-summary-035" duration="80"/>
+            <frame ref="aletheia-summary-036" duration="80"/>
+            <frame ref="aletheia-summary-037" duration="80"/>
+            <frame ref="aletheia-summary-038" duration="80"/>
+            <frame ref="aletheia-summary-039" duration="80"/>
+            <frame ref="aletheia-summary-040" duration="80"/>
+            <frame ref="aletheia-summary-041" duration="80"/>
+            <frame ref="aletheia-summary-042" duration="80"/>
+            <frame ref="aletheia-summary-043" duration="80"/>
+            <frame ref="aletheia-summary-044" duration="80"/>
+            <frame ref="aletheia-summary-045" duration="80"/>
+            <frame ref="aletheia-summary-046" duration="80"/>
+            <frame ref="aletheia-summary-047" duration="80"/>
+            <frame ref="aletheia-summary-048" duration="80"/>
+            <frame ref="aletheia-summary-049" duration="80"/>
+            <frame ref="aletheia-summary-050" duration="80"/>
+            <frame ref="aletheia-summary-051" duration="80"/>
+            <frame ref="aletheia-summary-052" duration="80"/>
+            <frame ref="aletheia-summary-053" duration="80"/>
+            <frame ref="aletheia-summary-054" duration="80"/>
+            <frame ref="aletheia-summary-055" duration="80"/>
+            <frame ref="aletheia-summary-056" duration="80"/>
+            <frame ref="aletheia-summary-057" duration="80"/>
+            <frame ref="aletheia-summary-058" duration="80"/>
+            <frame ref="aletheia-summary-059" duration="80"/>
+            <frame ref="aletheia-summary-060" duration="80"/>
+            <frame ref="aletheia-summary-061" duration="80"/>
+            <frame ref="aletheia-summary-062" duration="80"/>
+            <frame ref="aletheia-summary-063" duration="80"/>
+            <frame ref="aletheia-summary-064" duration="80"/>
+            <frame ref="aletheia-summary-065" duration="80"/>
+            <frame ref="aletheia-summary-066" duration="80"/>
+            <frame ref="aletheia-summary-067" duration="80"/>
+            <frame ref="aletheia-summary-068" duration="80"/>
+            <frame ref="aletheia-summary-069" duration="80"/>
+            <frame ref="aletheia-summary-070" duration="80"/>
+            <frame ref="aletheia-summary-071" duration="80"/>
+            <frame ref="aletheia-summary-072" duration="80"/>
+            <frame ref="aletheia-summary-073" duration="80"/>
+            <frame ref="aletheia-summary-074" duration="80"/>
+            <frame ref="aletheia-summary-075" duration="80"/>
+            <frame ref="aletheia-summary-076" duration="80"/>
+            <frame ref="aletheia-summary-077" duration="80"/>
+            <frame ref="aletheia-summary-078" duration="80"/>
+            <frame ref="aletheia-summary-079" duration="80"/>
+            <frame ref="aletheia-summary-080" duration="80"/>
+            <frame ref="aletheia-summary-081" duration="80"/>
+            <frame ref="aletheia-summary-082" duration="80"/>
+            <frame ref="aletheia-summary-083" duration="80"/>
+            <frame ref="aletheia-summary-084" duration="80"/>
+            <frame ref="aletheia-summary-085" duration="80"/>
+            <frame ref="aletheia-summary-086" duration="80"/>
+            <frame ref="aletheia-summary-087" duration="80"/>
+            <frame ref="aletheia-summary-088" duration="80"/>
+            <frame ref="aletheia-summary-089" duration="80"/>
+            <frame ref="aletheia-summary-090" duration="80"/>
+            <frame ref="aletheia-summary-091" duration="80"/>
+            <frame ref="aletheia-summary-092" duration="80"/>
+            <frame ref="aletheia-summary-093" duration="80"/>
+            <frame ref="aletheia-summary-094" duration="80"/>
+            <frame ref="aletheia-summary-095" duration="80"/>
+            <frame ref="aletheia-summary-096" duration="80"/>
+            <frame ref="aletheia-summary-097" duration="80"/>
+            <frame ref="aletheia-summary-098" duration="80"/>
+            <frame ref="aletheia-summary-099" duration="80"/>
+        </animation>
+    </images>
+</themes>

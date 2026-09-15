@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <images file="res/custom/main-hud/Alya-HUD-Icons-Switch.png" filter="linear">
+    <area name="Alya-HUD-Icon-1" xywh="0,0,32,32"/>
+    <area name="Alya-HUD-Icon-2" xywh="32,0,32,32"/>
+    <area name="Alya-HUD-Icon-3" xywh="64,0,32,32"/>
+    <area name="Alya-HUD-Icon-4" xywh="96,0,32,32"/>
+    <area name="Alya-HUD-Icon-5" xywh="128,0,32,32"/>
+    <area name="Alya-HUD-Icon-6" xywh="160,0,32,32"/>
+    <area name="Alya-HUD-Icon-7" xywh="192,0,32,32"/>
+    <area name="Alya-HUD-Icon-8" xywh="224,0,32,32"/>
+    <area name="Alya-HUD-Icon-9" xywh="256,0,32,32"/>
+    <area name="Alya-HUD-Icon-10" xywh="288,0,32,32"/>
+  </images>
+
+  <images>
+    <!-- One setting now switches the COMPLETE HUD visual, including its icons. -->
+    <composed name="HUD Bar Archetype">
+      <alias ref="Menu-HUD"/>
+      <!-- This is Archetype's original overlay: exact frames + exact Archetype icons. -->
+      <alias ref="Small-HUD-Overlay"/>
+    </composed>
+
+    <composed name="HUD-Alya-Icons-Layer">
+      <grid weightsX="1,1,1,1,1,1,1,1,1,1" weightsY="1" inset="6,8,6,8">
+        <alias ref="Alya-HUD-Icon-1"/>
+        <alias ref="Alya-HUD-Icon-2"/>
+        <alias ref="Alya-HUD-Icon-3"/>
+        <alias ref="Alya-HUD-Icon-4"/>
+        <alias ref="Alya-HUD-Icon-5"/>
+        <alias ref="Alya-HUD-Icon-6"/>
+        <alias ref="Alya-HUD-Icon-7"/>
+        <alias ref="Alya-HUD-Icon-8"/>
+        <alias ref="Alya-HUD-Icon-9"/>
+        <alias ref="Alya-HUD-Icon-10"/>
+      </grid>
+    </composed>
+
+    <composed name="HUD Bar Alya">
+      <alias ref="test-sprite"/>
+      <alias ref="HUD-Alya-Icons-Layer"/>
+    </composed>
+  </images>
+</themes>

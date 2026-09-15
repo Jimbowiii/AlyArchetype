@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+    <images file="../res/guild-frame.png" filter="nearest">
+        <area name="guild-frame.custom"
+              xywh="*"
+              splitx="L12,R12"
+              splity="T32,B12"
+              inset="-110,-40,-86,-40"/>
+    </images>
+
+</themes>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<themes>
+  <!-- Final chat compatibility: stretch Alya background to the whole Archetype content area. -->
+  <theme name="chatresizableframe" ref="chatresizableframe" overwrite="true">
+    <param name="background"><image>none</image></param>
+  </theme>
+  <theme name="chatframe" ref="chatframe" overwrite="true">
+    <param name="background"><image>none</image></param>
+    <!-- Keep the Alya art only behind the message area. Removing it from content
+         eliminates the empty image band above the messages. Zero horizontal
+         frame borders let the message background match the bottom bar width. -->
+    <param name="border"><border>5,0,2,0</border></param>
+    <theme name="content" ref="content">
+      <param name="background"><image>none</image></param>
+      <theme name="scrollpane" ref="scrollpane"><param name="background"><constant>alya_chat_variant</constant></param><param name="border"><border>0</border></param></theme>
+      </theme>
+  </theme>
+  <theme name="chatframe-locked" ref="chatframe-locked" overwrite="true">
+    <param name="background"><image>none</image></param>
+    <param name="border"><border>5,0,2,0</border></param>
+    <theme name="content" ref="content">
+      <param name="background"><image>none</image></param>
+      <theme name="scrollpane" ref="scrollpane"><param name="background"><constant>alya_chat_variant</constant></param><param name="border"><border>0</border></param></theme>
+      </theme>
+  </theme>
+</themes>

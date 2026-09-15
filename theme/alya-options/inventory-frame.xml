@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+    <images file="../res/inventory-frame-neon.png" filter="linear">
+        <area name="inventory-frame.custom" xywh="*" splitx="L42,R42" splity="T70,B40" inset="3,-30,-21,-30"/>
+    </images>
+    <images>
+        <composed name="inventory-background.custom">
+            <alias ref="inventory-alya-animation"/>
+            <alias ref="inventory-frame.custom"/>
+        </composed>
+    </images>
+</themes>

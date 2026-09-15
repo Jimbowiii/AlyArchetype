@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><themes>
+<!-- CHOOSE YOUR LOOK! -->
+
+<!-- 
+Login screen background: 
+1. Unova.xml 
+2. Allstars.xml 
+3. Default.xml 
+-->
+<include filename="backgrounds/Unova.xml"/>
+
+<!--
+Mouse cursors:
+1. Cursors-Black.xml 
+2. Cursors-White.xml 
+3. Cursors-Black-Alt.xml 
+4. Cursors-White-Alt.xml 
+-->
+<include filename="cursors/Cursors-Black.xml"/>
+
+<!-- 
+Theme shape:
+1. Sharp.xml
+2. Round.xml
+
+Note: Move, type, and other sprite icons are distributed as separate Archetype icon overlay mods. Select one icon mod in Mod Management; no info.xml edit is required.
+-->
+<include filename="shapes/Round.xml"/>
+
+<!-- 
+Speech bubbles: 
+1. Archetype.xml 
+2. Default-White.xml 
+3. Default-Black.xml 
+-->
+<include filename="speech-bubbles/Default-White.xml"/>
+
+</themes>

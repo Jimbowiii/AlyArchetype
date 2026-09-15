@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_000.png" filter="nearest">
+        <area name="trainer-ball-000" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_001.png" filter="nearest">
+        <area name="trainer-ball-001" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_002.png" filter="nearest">
+        <area name="trainer-ball-002" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_003.png" filter="nearest">
+        <area name="trainer-ball-003" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_004.png" filter="nearest">
+        <area name="trainer-ball-004" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_005.png" filter="nearest">
+        <area name="trainer-ball-005" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_006.png" filter="nearest">
+        <area name="trainer-ball-006" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_007.png" filter="nearest">
+        <area name="trainer-ball-007" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_008.png" filter="nearest">
+        <area name="trainer-ball-008" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_009.png" filter="nearest">
+        <area name="trainer-ball-009" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_010.png" filter="nearest">
+        <area name="trainer-ball-010" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_011.png" filter="nearest">
+        <area name="trainer-ball-011" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_012.png" filter="nearest">
+        <area name="trainer-ball-012" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_013.png" filter="nearest">
+        <area name="trainer-ball-013" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_014.png" filter="nearest">
+        <area name="trainer-ball-014" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_015.png" filter="nearest">
+        <area name="trainer-ball-015" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_016.png" filter="nearest">
+        <area name="trainer-ball-016" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_017.png" filter="nearest">
+        <area name="trainer-ball-017" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_018.png" filter="nearest">
+        <area name="trainer-ball-018" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_019.png" filter="nearest">
+        <area name="trainer-ball-019" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_020.png" filter="nearest">
+        <area name="trainer-ball-020" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_021.png" filter="nearest">
+        <area name="trainer-ball-021" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_022.png" filter="nearest">
+        <area name="trainer-ball-022" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_023.png" filter="nearest">
+        <area name="trainer-ball-023" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_024.png" filter="nearest">
+        <area name="trainer-ball-024" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_025.png" filter="nearest">
+        <area name="trainer-ball-025" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_026.png" filter="nearest">
+        <area name="trainer-ball-026" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_027.png" filter="nearest">
+        <area name="trainer-ball-027" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_028.png" filter="nearest">
+        <area name="trainer-ball-028" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_029.png" filter="nearest">
+        <area name="trainer-ball-029" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_030.png" filter="nearest">
+        <area name="trainer-ball-030" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_031.png" filter="nearest">
+        <area name="trainer-ball-031" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_032.png" filter="nearest">
+        <area name="trainer-ball-032" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_033.png" filter="nearest">
+        <area name="trainer-ball-033" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_034.png" filter="nearest">
+        <area name="trainer-ball-034" xywh="*"/>
+    </images>
+
+    <images file="../anim/trainer-pokeball/TrainerBall_035.png" filter="nearest">
+        <area name="trainer-ball-035" xywh="*"/>
+    </images>
+
+    <images>
+        <animation name="trainer-pokeball-animation" timeSource="enabled">
+            <frame ref="trainer-ball-000" duration="40"/>
+            <frame ref="trainer-ball-001" duration="40"/>
+            <frame ref="trainer-ball-002" duration="40"/>
+            <frame ref="trainer-ball-003" duration="40"/>
+            <frame ref="trainer-ball-004" duration="40"/>
+            <frame ref="trainer-ball-005" duration="40"/>
+            <frame ref="trainer-ball-006" duration="40"/>
+            <frame ref="trainer-ball-007" duration="40"/>
+            <frame ref="trainer-ball-008" duration="40"/>
+            <frame ref="trainer-ball-009" duration="40"/>
+            <frame ref="trainer-ball-010" duration="40"/>
+            <frame ref="trainer-ball-011" duration="40"/>
+            <frame ref="trainer-ball-012" duration="40"/>
+            <frame ref="trainer-ball-013" duration="40"/>
+            <frame ref="trainer-ball-014" duration="40"/>
+            <frame ref="trainer-ball-015" duration="40"/>
+            <frame ref="trainer-ball-016" duration="40"/>
+            <frame ref="trainer-ball-017" duration="40"/>
+            <frame ref="trainer-ball-018" duration="40"/>
+            <frame ref="trainer-ball-019" duration="40"/>
+            <frame ref="trainer-ball-020" duration="40"/>
+            <frame ref="trainer-ball-021" duration="40"/>
+            <frame ref="trainer-ball-022" duration="40"/>
+            <frame ref="trainer-ball-023" duration="40"/>
+            <frame ref="trainer-ball-024" duration="40"/>
+            <frame ref="trainer-ball-025" duration="40"/>
+            <frame ref="trainer-ball-026" duration="40"/>
+            <frame ref="trainer-ball-027" duration="40"/>
+            <frame ref="trainer-ball-028" duration="40"/>
+            <frame ref="trainer-ball-029" duration="40"/>
+            <frame ref="trainer-ball-030" duration="40"/>
+            <frame ref="trainer-ball-031" duration="40"/>
+            <frame ref="trainer-ball-032" duration="40"/>
+            <frame ref="trainer-ball-033" duration="40"/>
+            <frame ref="trainer-ball-034" duration="40"/>
+            <frame ref="trainer-ball-035" duration="40"/>
+        </animation>
+    </images>
+
+</themes>

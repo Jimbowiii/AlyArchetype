@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+
+    <images file="../anim/Guild_000.jpg" filter="nearest">
+        <area name="guild-bg-000" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_001.jpg" filter="nearest">
+        <area name="guild-bg-001" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_002.jpg" filter="nearest">
+        <area name="guild-bg-002" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_003.jpg" filter="nearest">
+        <area name="guild-bg-003" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_004.jpg" filter="nearest">
+        <area name="guild-bg-004" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_005.jpg" filter="nearest">
+        <area name="guild-bg-005" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_006.jpg" filter="nearest">
+        <area name="guild-bg-006" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_007.jpg" filter="nearest">
+        <area name="guild-bg-007" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_008.jpg" filter="nearest">
+        <area name="guild-bg-008" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_009.jpg" filter="nearest">
+        <area name="guild-bg-009" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_010.jpg" filter="nearest">
+        <area name="guild-bg-010" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_011.jpg" filter="nearest">
+        <area name="guild-bg-011" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_012.jpg" filter="nearest">
+        <area name="guild-bg-012" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_013.jpg" filter="nearest">
+        <area name="guild-bg-013" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_014.jpg" filter="nearest">
+        <area name="guild-bg-014" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_015.jpg" filter="nearest">
+        <area name="guild-bg-015" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_016.jpg" filter="nearest">
+        <area name="guild-bg-016" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_017.jpg" filter="nearest">
+        <area name="guild-bg-017" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_018.jpg" filter="nearest">
+        <area name="guild-bg-018" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_019.jpg" filter="nearest">
+        <area name="guild-bg-019" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_020.jpg" filter="nearest">
+        <area name="guild-bg-020" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_021.jpg" filter="nearest">
+        <area name="guild-bg-021" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_022.jpg" filter="nearest">
+        <area name="guild-bg-022" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_023.jpg" filter="nearest">
+        <area name="guild-bg-023" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_024.jpg" filter="nearest">
+        <area name="guild-bg-024" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_025.jpg" filter="nearest">
+        <area name="guild-bg-025" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_026.jpg" filter="nearest">
+        <area name="guild-bg-026" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_027.jpg" filter="nearest">
+        <area name="guild-bg-027" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_028.jpg" filter="nearest">
+        <area name="guild-bg-028" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_029.jpg" filter="nearest">
+        <area name="guild-bg-029" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_030.jpg" filter="nearest">
+        <area name="guild-bg-030" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_031.jpg" filter="nearest">
+        <area name="guild-bg-031" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_032.jpg" filter="nearest">
+        <area name="guild-bg-032" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_033.jpg" filter="nearest">
+        <area name="guild-bg-033" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_034.jpg" filter="nearest">
+        <area name="guild-bg-034" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_035.jpg" filter="nearest">
+        <area name="guild-bg-035" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_036.jpg" filter="nearest">
+        <area name="guild-bg-036" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_037.jpg" filter="nearest">
+        <area name="guild-bg-037" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_038.jpg" filter="nearest">
+        <area name="guild-bg-038" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_039.jpg" filter="nearest">
+        <area name="guild-bg-039" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_040.jpg" filter="nearest">
+        <area name="guild-bg-040" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_041.jpg" filter="nearest">
+        <area name="guild-bg-041" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_042.jpg" filter="nearest">
+        <area name="guild-bg-042" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_043.jpg" filter="nearest">
+        <area name="guild-bg-043" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_044.jpg" filter="nearest">
+        <area name="guild-bg-044" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_045.jpg" filter="nearest">
+        <area name="guild-bg-045" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_046.jpg" filter="nearest">
+        <area name="guild-bg-046" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_047.jpg" filter="nearest">
+        <area name="guild-bg-047" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_048.jpg" filter="nearest">
+        <area name="guild-bg-048" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_049.jpg" filter="nearest">
+        <area name="guild-bg-049" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_050.jpg" filter="nearest">
+        <area name="guild-bg-050" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_051.jpg" filter="nearest">
+        <area name="guild-bg-051" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_052.jpg" filter="nearest">
+        <area name="guild-bg-052" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_053.jpg" filter="nearest">
+        <area name="guild-bg-053" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_054.jpg" filter="nearest">
+        <area name="guild-bg-054" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_055.jpg" filter="nearest">
+        <area name="guild-bg-055" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_056.jpg" filter="nearest">
+        <area name="guild-bg-056" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_057.jpg" filter="nearest">
+        <area name="guild-bg-057" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_058.jpg" filter="nearest">
+        <area name="guild-bg-058" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_059.jpg" filter="nearest">
+        <area name="guild-bg-059" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_060.jpg" filter="nearest">
+        <area name="guild-bg-060" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_061.jpg" filter="nearest">
+        <area name="guild-bg-061" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_062.jpg" filter="nearest">
+        <area name="guild-bg-062" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_063.jpg" filter="nearest">
+        <area name="guild-bg-063" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_064.jpg" filter="nearest">
+        <area name="guild-bg-064" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_065.jpg" filter="nearest">
+        <area name="guild-bg-065" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_066.jpg" filter="nearest">
+        <area name="guild-bg-066" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_067.jpg" filter="nearest">
+        <area name="guild-bg-067" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_068.jpg" filter="nearest">
+        <area name="guild-bg-068" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_069.jpg" filter="nearest">
+        <area name="guild-bg-069" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_070.jpg" filter="nearest">
+        <area name="guild-bg-070" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_071.jpg" filter="nearest">
+        <area name="guild-bg-071" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_072.jpg" filter="nearest">
+        <area name="guild-bg-072" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_073.jpg" filter="nearest">
+        <area name="guild-bg-073" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_074.jpg" filter="nearest">
+        <area name="guild-bg-074" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_075.jpg" filter="nearest">
+        <area name="guild-bg-075" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_076.jpg" filter="nearest">
+        <area name="guild-bg-076" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_077.jpg" filter="nearest">
+        <area name="guild-bg-077" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_078.jpg" filter="nearest">
+        <area name="guild-bg-078" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_079.jpg" filter="nearest">
+        <area name="guild-bg-079" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_080.jpg" filter="nearest">
+        <area name="guild-bg-080" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_081.jpg" filter="nearest">
+        <area name="guild-bg-081" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_082.jpg" filter="nearest">
+        <area name="guild-bg-082" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_083.jpg" filter="nearest">
+        <area name="guild-bg-083" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_084.jpg" filter="nearest">
+        <area name="guild-bg-084" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_085.jpg" filter="nearest">
+        <area name="guild-bg-085" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_086.jpg" filter="nearest">
+        <area name="guild-bg-086" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_087.jpg" filter="nearest">
+        <area name="guild-bg-087" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_088.jpg" filter="nearest">
+        <area name="guild-bg-088" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_089.jpg" filter="nearest">
+        <area name="guild-bg-089" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_090.jpg" filter="nearest">
+        <area name="guild-bg-090" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_091.jpg" filter="nearest">
+        <area name="guild-bg-091" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_092.jpg" filter="nearest">
+        <area name="guild-bg-092" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_093.jpg" filter="nearest">
+        <area name="guild-bg-093" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_094.jpg" filter="nearest">
+        <area name="guild-bg-094" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_095.jpg" filter="nearest">
+        <area name="guild-bg-095" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_096.jpg" filter="nearest">
+        <area name="guild-bg-096" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_097.jpg" filter="nearest">
+        <area name="guild-bg-097" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_098.jpg" filter="nearest">
+        <area name="guild-bg-098" xywh="*"/>
+    </images>
+
+    <images file="../anim/Guild_099.jpg" filter="nearest">
+        <area name="guild-bg-099" xywh="*"/>
+    </images>
+
+    <images>
+        <animation name="guild-animation" timeSource="enabled">
+            <frame ref="guild-bg-000" duration="80"/>
+            <frame ref="guild-bg-001" duration="80"/>
+            <frame ref="guild-bg-002" duration="80"/>
+            <frame ref="guild-bg-003" duration="80"/>
+            <frame ref="guild-bg-004" duration="80"/>
+            <frame ref="guild-bg-005" duration="80"/>
+            <frame ref="guild-bg-006" duration="80"/>
+            <frame ref="guild-bg-007" duration="80"/>
+            <frame ref="guild-bg-008" duration="80"/>
+            <frame ref="guild-bg-009" duration="80"/>
+            <frame ref="guild-bg-010" duration="80"/>
+            <frame ref="guild-bg-011" duration="80"/>
+            <frame ref="guild-bg-012" duration="80"/>
+            <frame ref="guild-bg-013" duration="80"/>
+            <frame ref="guild-bg-014" duration="80"/>
+            <frame ref="guild-bg-015" duration="80"/>
+            <frame ref="guild-bg-016" duration="80"/>
+            <frame ref="guild-bg-017" duration="80"/>
+            <frame ref="guild-bg-018" duration="80"/>
+            <frame ref="guild-bg-019" duration="80"/>
+            <frame ref="guild-bg-020" duration="80"/>
+            <frame ref="guild-bg-021" duration="80"/>
+            <frame ref="guild-bg-022" duration="80"/>
+            <frame ref="guild-bg-023" duration="80"/>
+            <frame ref="guild-bg-024" duration="80"/>
+            <frame ref="guild-bg-025" duration="80"/>
+            <frame ref="guild-bg-026" duration="80"/>
+            <frame ref="guild-bg-027" duration="80"/>
+            <frame ref="guild-bg-028" duration="80"/>
+            <frame ref="guild-bg-029" duration="80"/>
+            <frame ref="guild-bg-030" duration="80"/>
+            <frame ref="guild-bg-031" duration="80"/>
+            <frame ref="guild-bg-032" duration="80"/>
+            <frame ref="guild-bg-033" duration="80"/>
+            <frame ref="guild-bg-034" duration="80"/>
+            <frame ref="guild-bg-035" duration="80"/>
+            <frame ref="guild-bg-036" duration="80"/>
+            <frame ref="guild-bg-037" duration="80"/>
+            <frame ref="guild-bg-038" duration="80"/>
+            <frame ref="guild-bg-039" duration="80"/>
+            <frame ref="guild-bg-040" duration="80"/>
+            <frame ref="guild-bg-041" duration="80"/>
+            <frame ref="guild-bg-042" duration="80"/>
+            <frame ref="guild-bg-043" duration="80"/>
+            <frame ref="guild-bg-044" duration="80"/>
+            <frame ref="guild-bg-045" duration="80"/>
+            <frame ref="guild-bg-046" duration="80"/>
+            <frame ref="guild-bg-047" duration="80"/>
+            <frame ref="guild-bg-048" duration="80"/>
+            <frame ref="guild-bg-049" duration="80"/>
+            <frame ref="guild-bg-050" duration="80"/>
+            <frame ref="guild-bg-051" duration="80"/>
+            <frame ref="guild-bg-052" duration="80"/>
+            <frame ref="guild-bg-053" duration="80"/>
+            <frame ref="guild-bg-054" duration="80"/>
+            <frame ref="guild-bg-055" duration="80"/>
+            <frame ref="guild-bg-056" duration="80"/>
+            <frame ref="guild-bg-057" duration="80"/>
+            <frame ref="guild-bg-058" duration="80"/>
+            <frame ref="guild-bg-059" duration="80"/>
+            <frame ref="guild-bg-060" duration="80"/>
+            <frame ref="guild-bg-061" duration="80"/>
+            <frame ref="guild-bg-062" duration="80"/>
+            <frame ref="guild-bg-063" duration="80"/>
+            <frame ref="guild-bg-064" duration="80"/>
+            <frame ref="guild-bg-065" duration="80"/>
+            <frame ref="guild-bg-066" duration="80"/>
+            <frame ref="guild-bg-067" duration="80"/>
+            <frame ref="guild-bg-068" duration="80"/>
+            <frame ref="guild-bg-069" duration="80"/>
+            <frame ref="guild-bg-070" duration="80"/>
+            <frame ref="guild-bg-071" duration="80"/>
+            <frame ref="guild-bg-072" duration="80"/>
+            <frame ref="guild-bg-073" duration="80"/>
+            <frame ref="guild-bg-074" duration="80"/>
+            <frame ref="guild-bg-075" duration="80"/>
+            <frame ref="guild-bg-076" duration="80"/>
+            <frame ref="guild-bg-077" duration="80"/>
+            <frame ref="guild-bg-078" duration="80"/>
+            <frame ref="guild-bg-079" duration="80"/>
+            <frame ref="guild-bg-080" duration="80"/>
+            <frame ref="guild-bg-081" duration="80"/>
+            <frame ref="guild-bg-082" duration="80"/>
+            <frame ref="guild-bg-083" duration="80"/>
+            <frame ref="guild-bg-084" duration="80"/>
+            <frame ref="guild-bg-085" duration="80"/>
+            <frame ref="guild-bg-086" duration="80"/>
+            <frame ref="guild-bg-087" duration="80"/>
+            <frame ref="guild-bg-088" duration="80"/>
+            <frame ref="guild-bg-089" duration="80"/>
+            <frame ref="guild-bg-090" duration="80"/>
+            <frame ref="guild-bg-091" duration="80"/>
+            <frame ref="guild-bg-092" duration="80"/>
+            <frame ref="guild-bg-093" duration="80"/>
+            <frame ref="guild-bg-094" duration="80"/>
+            <frame ref="guild-bg-095" duration="80"/>
+            <frame ref="guild-bg-096" duration="80"/>
+            <frame ref="guild-bg-097" duration="80"/>
+            <frame ref="guild-bg-098" duration="80"/>
+            <frame ref="guild-bg-099" duration="80"/>
+        </animation>
+    </images>
+
+</themes>

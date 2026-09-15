@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <!-- Alya UI font aliases backed by Archetype's current Noto font stack -->
+  <fontDef name="main" ref="alphabeta"/>
+  <fontDef name="main-markup" ref="alphabeta-markup"/>
+  <fontDef name="main-green" ref="chat-default" color="#7fc937"/>
+  <fontDef name="main-lightgreen" ref="chat-default" color="hp-high-color"/>
+  <fontDef name="main-blue" ref="chat-default" color="#AACFFF"/>
+  <fontDef name="main-orange" ref="chat-default" color="alya-chat-shout-color"/>
+  <fontDef name="main-purple" ref="chat-default" color="alya-chat-trade-color"/>
+  <fontDef name="main-link" ref="chat-default" color="alya-chat-link-color"/>
+  <fontDef name="main-normal" ref="chat-default" color="alya-chat-normal-color"/>
+  <fontDef name="main-whisper" ref="chat-default" color="alya-chat-whisper-color"/>
+  <fontDef name="main-global" ref="chat-default" color="alya-chat-global-color"/>
+  <fontDef name="main-channel" ref="chat-default" color="alya-chat-channel-color"/>
+  <fontDef name="main-battle2" ref="chat-default" color="alya-chat-battle-color"/>
+  <fontDef name="main-battle" ref="chat-default" color="alya-chat-battle-color"/>
+  <fontDef name="main-brown" ref="chat-default" color="team_chat_color"/>
+  <fontDef name="main-yellow" ref="chat-default" color="alya-chat-channel-color"/>
+  <fontDef name="main-border" ref="alphabeta-border"/>
+  <fontDef name="main-border-friend" ref="alphabeta-border-friend"/>
+  <fontDef name="main-border-team" ref="alphabeta-border-team"/>
+  <fontDef name="messagebox" filename="../fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#222222" kerning="false" hinting="Medium" size="24" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="0" border_color="#484848"/>
+  <fontDef name="npc-dialog-text" filename="../fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#222222" kerning="false" hinting="Medium" size="24" shadow_color="#40000000" shadow_offset_x="1" shadow_offset_y="1" border_width="0" border_color="#484848"/>
+  <fontDef name="noto-bold-large-white" ref="title-font" color="#FFFFFF"/>
+  <fontDef name="pokedex-small" ref="alphabeta-dex"/>
+  <fontDef name="title-font-black" ref="title-font" color="#000000"/>
+  <fontDef name="guild-title-hidden" ref="title-font"/>
+  <fontDef name="guild-window-title-hidden" ref="title-font" color="#00FFFFFF"/>
+  <fontDef name="window-title-hidden" ref="title-font" color="#00FFFFFF"/>
+  <fontDef name="gtl-title-hidden" ref="title-font" color="#00FFFFFF"/>
+  <fontDef name="main-lightgray" ref="main" color="#CECECE"/>
+  <fontDef name="pb-dark-yellow" ref="pb-dark" color="#FFD800"/>
+</themes>

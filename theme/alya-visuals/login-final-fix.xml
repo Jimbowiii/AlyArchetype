@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <theme name="logingui" ref="logingui" overwrite="true">
+    <param name="background"><constant>select_animation</constant></param>
+  </theme>
+  <theme name="characterselectgui" ref="characterselectgui" overwrite="true">
+    <param name="background"><constant>select_animation</constant></param>
+  </theme>
+  <theme name="queuegui" ref="characterselectgui" overwrite="true">
+    <param name="background"><constant>select_animation</constant></param>
+  </theme>
+</themes>

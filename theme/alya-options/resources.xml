@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+  <include filename="../custom/login-backgrounds/bgs.xml"/>
+  <include filename="../custom/pc-backgrounds/pc-backgrounds.xml"/>
+  <include filename="../custom/shiny-windows/shiny-windows.xml"/>
+  <include filename="../custom/summaries/summaries.xml"/>
+  <include filename="alya-summary-animation.xml"/>
+  <include filename="sky-summary-animation.xml"/>
+  <include filename="trainer-pokeball-animation.xml"/>
+
+  <images file="summary_filename" filter="nearest"><area name="Static Summary" xywh="6,194,506,316"/></images>
+  <images file="res/MainTCTexture.png"><area name="No Table" xywh="*"/></images>
+  <images file="res/MainTCTexture_2.png"><area name="Weakness Table" xywh="*" inset="0,0,-388,0"/></images>
+  <images file="res/breedwindow.png" filter="nearest"><area name="ALYA Breeding" xywh="14,10,639,481"/></images>
+  <images file="res/breedwindow-war.png" filter="nearest"><area name="ALYA WAR Breeding" xywh="14,10,639,481"/></images>
+  <images file="res/incubator-info.png" filter="nearest"><area name="ALYA Incubator" xywh="0,0,180,355" splitx="L10,R10" splity="T10,B10"/></images>
+  <images file="res/incubator-info-war.png" filter="nearest"><area name="ALYA WAR Incubator" xywh="0,0,180,355" splitx="L10,R10" splity="T10,B10"/></images>
+  <images file="res/background2.png"><area name="Snorlax No Animation" xywh="*"/><area name="Eevee" xywh="*"/></images>
+  <images file="res/background3.png"><area name="Pikachu" xywh="*"/></images>
+  <images file="res/battle-framebg.png" filter="nearest"><area name="battleframebg" xywh="*"/><area name="label1.background" xywh="500,20,10,10"/></images>
+
+  <images file="res/pc_box/0.png"><area name="Pokeball" xywh="*"/></images>
+  <images file="res/pc_box/1.png"><area name="Loveball" xywh="*"/></images>
+  <images file="res/pc_box/2.png"><area name="Mew" xywh="*"/></images>
+  <images file="res/pc_box/3.png"><area name="Starters Balls" xywh="*"/></images>
+  <images file="res/pc_box/4.png"><area name="Eevelutions" xywh="*"/></images>
+  <images file="res/pc_box/5.png"><area name="Pikachu Surf" xywh="*"/></images>
+  <images file="res/pc_box/6.png"><area name="Misty" xywh="*"/></images>
+  <images file="res/pc_box/7.png"><area name="Field" xywh="*"/></images>
+  <images file="res/pc_box/8.png"><area name="Aurorus" xywh="*"/></images>
+
+  <images file="res/main-hud.png" filter="nearest">
+    <area name="Hide Notif Background" xywh="3,0,1,1"/>
+    <area name="Show Notif Background" xywh="1,0,1,1"/>
+    <grid name="frame-draggable-alpha.background" weightsX="0,1,0" weightsY="0,0,1,0">
+      <area xywh="101,181,5,5"/>
+      <area xywh="108,181,8,5"/>
+      <area xywh="185,181,5,5"/>
+      <area xywh="101,184,5,19"/>
+      <area xywh="108,184,8,19"/>
+      <area xywh="185,184,5,19"/>
+      <area xywh="101,210,5,8"/>
+      <area xywh="111,213,8,8" repeatX="true" repeatY="true" tint="#99FFFFFF"/>
+      <area xywh="185,208,5,8"/>
+      <area xywh="101,223,5,3"/>
+      <area xywh="104,223,3,3"/>
+      <area xywh="185,223,5,3"/>
+    </grid>
+  </images>
+
+  <images file="res/caught-window.png" filter="nearest">
+    <area name="monster-caught.background" xywh="0,0,498,410"/>
+  </images>
+
+  <images file="res/pokemmo_ui.png" filter="nearest">
+    <area name="pravii" xywh="412,58,29,29" splitx="L4,R4" splity="T4,B4"/>
+    <area name="Normal" xywh="297,358,38,38" splitx="L5,R5" splity="T5,B5"/>
+    <select name="Transparent">
+      <alias ref="pravii" if="disabled + hover"/>
+      <alias ref="pravii" if="disabled + (hover | keyboardFocus | selected)"/>
+      <alias ref="pravii" if="disabled"/>
+      <alias ref="pravii" if="pressed"/>
+      <alias ref="pravii" if="hover + (keyboardFocus)"/>
+      <alias ref="pravii" if="keyboardFocus"/>
+      <alias ref="pravii" if="hover"/>
+      <alias ref="pravii"/>
+    </select>
+  </images>
+</themes>

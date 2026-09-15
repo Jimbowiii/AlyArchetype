@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<themes>
+    <images file="../anim/Snorlax_000.jpg" filter="nearest">
+        <area name="bg-f00000" xywh="*"/>
+	</images>
+    <images file="../anim/Snorlax_001.jpg" filter="nearest">
+        <area name="bg-f00001" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_002.jpg" filter="nearest">
+        <area name="bg-f00002" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_003.jpg" filter="nearest">
+        <area name="bg-f00003" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_004.jpg" filter="nearest">
+        <area name="bg-f00004" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_005.jpg" filter="nearest">
+        <area name="bg-f00005" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_006.jpg" filter="nearest">
+        <area name="bg-f00006" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_007.jpg" filter="nearest">
+        <area name="bg-f00007" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_008.jpg" filter="nearest">
+        <area name="bg-f00008" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_009.jpg" filter="nearest">
+        <area name="bg-f00009" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_010.jpg" filter="nearest">
+        <area name="bg-f00010" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_011.jpg" filter="nearest">
+        <area name="bg-f00011" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_012.jpg" filter="nearest">
+        <area name="bg-f00012" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_013.jpg" filter="nearest">
+        <area name="bg-f00013" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_014.jpg" filter="nearest">
+        <area name="bg-f00014" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_015.jpg" filter="nearest">
+        <area name="bg-f00015" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_016.jpg" filter="nearest">
+        <area name="bg-f00016" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_017.jpg" filter="nearest">
+        <area name="bg-f00017" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_018.jpg" filter="nearest">
+        <area name="bg-f00018" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_019.jpg" filter="nearest">
+        <area name="bg-f00019" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_020.jpg" filter="nearest">
+        <area name="bg-f00020" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_021.jpg" filter="nearest">
+        <area name="bg-f00021" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_022.jpg" filter="nearest">
+        <area name="bg-f00022" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_023.jpg" filter="nearest">
+        <area name="bg-f00023" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_024.jpg" filter="nearest">
+        <area name="bg-f00024" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_025.jpg" filter="nearest">
+        <area name="bg-f00025" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_026.jpg" filter="nearest">
+        <area name="bg-f00026" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_027.jpg" filter="nearest">
+        <area name="bg-f00027" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_028.jpg" filter="nearest">
+        <area name="bg-f00028" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_029.jpg" filter="nearest">
+        <area name="bg-f00029" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_030.jpg" filter="nearest">
+        <area name="bg-f00030" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_031.jpg" filter="nearest">
+        <area name="bg-f00031" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_032.jpg" filter="nearest">
+        <area name="bg-f00032" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_033.jpg" filter="nearest">
+        <area name="bg-f00033" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_034.jpg" filter="nearest">
+        <area name="bg-f00034" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_035.jpg" filter="nearest">
+        <area name="bg-f00035" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_036.jpg" filter="nearest">
+        <area name="bg-f00036" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_037.jpg" filter="nearest">
+        <area name="bg-f00037" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_038.jpg" filter="nearest">
+        <area name="bg-f00038" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_039.jpg" filter="nearest">
+        <area name="bg-f00039" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_040.jpg" filter="nearest">
+        <area name="bg-f00040" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_041.jpg" filter="nearest">
+        <area name="bg-f00041" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_042.jpg" filter="nearest">
+        <area name="bg-f00042" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_043.jpg" filter="nearest">
+        <area name="bg-f00043" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_044.jpg" filter="nearest">
+        <area name="bg-f00044" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_045.jpg" filter="nearest">
+        <area name="bg-f00045" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_046.jpg" filter="nearest">
+        <area name="bg-f00046" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_047.jpg" filter="nearest">
+        <area name="bg-f00047" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_048.jpg" filter="nearest">
+        <area name="bg-f00048" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_049.jpg" filter="nearest">
+        <area name="bg-f00049" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_050.jpg" filter="nearest">
+        <area name="bg-f00050" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_051.jpg" filter="nearest">
+        <area name="bg-f00051" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_052.jpg" filter="nearest">
+        <area name="bg-f00052" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_053.jpg" filter="nearest">
+        <area name="bg-f00053" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_054.jpg" filter="nearest">
+        <area name="bg-f00054" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_055.jpg" filter="nearest">
+        <area name="bg-f00055" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_056.jpg" filter="nearest">
+        <area name="bg-f00056" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_057.jpg" filter="nearest">
+        <area name="bg-f00057" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_058.jpg" filter="nearest">
+        <area name="bg-f00058" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_059.jpg" filter="nearest">
+        <area name="bg-f00059" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_060.jpg" filter="nearest">
+        <area name="bg-f00060" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_061.jpg" filter="nearest">
+        <area name="bg-f00061" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_062.jpg" filter="nearest">
+        <area name="bg-f00062" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_063.jpg" filter="nearest">
+        <area name="bg-f00063" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_064.jpg" filter="nearest">
+        <area name="bg-f00064" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_065.jpg" filter="nearest">
+        <area name="bg-f00065" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_066.jpg" filter="nearest">
+        <area name="bg-f00066" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_067.jpg" filter="nearest">
+        <area name="bg-f00067" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_068.jpg" filter="nearest">
+        <area name="bg-f00068" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_069.jpg" filter="nearest">
+        <area name="bg-f00069" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_070.jpg" filter="nearest">
+        <area name="bg-f00070" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_071.jpg" filter="nearest">
+        <area name="bg-f00071" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_072.jpg" filter="nearest">
+        <area name="bg-f00072" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_073.jpg" filter="nearest">
+        <area name="bg-f00073" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_074.jpg" filter="nearest">
+        <area name="bg-f00074" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_075.jpg" filter="nearest">
+        <area name="bg-f00075" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_076.jpg" filter="nearest">
+        <area name="bg-f00076" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_077.jpg" filter="nearest">
+        <area name="bg-f00077" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_078.jpg" filter="nearest">
+        <area name="bg-f00078" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_079.jpg" filter="nearest">
+        <area name="bg-f00079" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_080.jpg" filter="nearest">
+        <area name="bg-f00080" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_081.jpg" filter="nearest">
+        <area name="bg-f00081" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_082.jpg" filter="nearest">
+        <area name="bg-f00082" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_083.jpg" filter="nearest">
+        <area name="bg-f00083" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_084.jpg" filter="nearest">
+        <area name="bg-f00084" xywh="*"/>
+    </images>
+	<images file="../anim/Snorlax_085.jpg" filter="nearest">
+        <area name="bg-f00085" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_086.jpg" filter="nearest">
+        <area name="bg-f00086" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_087.jpg" filter="nearest">
+        <area name="bg-f00087" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_088.jpg" filter="nearest">
+        <area name="bg-f00088" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_089.jpg" filter="nearest">
+        <area name="bg-f00089" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_090.jpg" filter="nearest">
+        <area name="bg-f00090" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_091.jpg" filter="nearest">
+        <area name="bg-f00091" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_092.jpg" filter="nearest">
+        <area name="bg-f00092" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_093.jpg" filter="nearest">
+        <area name="bg-f00093" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_094.jpg" filter="nearest">
+        <area name="bg-f00094" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_095.jpg" filter="nearest">
+        <area name="bg-f00095" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_096.jpg" filter="nearest">
+        <area name="bg-f00096" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_097.jpg" filter="nearest">
+        <area name="bg-f00097" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_098.jpg" filter="nearest">
+        <area name="bg-f00098" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_099.jpg" filter="nearest">
+        <area name="bg-f00099" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_100.jpg" filter="nearest">
+        <area name="bg-f00100" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_101.jpg" filter="nearest">
+        <area name="bg-f00101" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_102.jpg" filter="nearest">
+        <area name="bg-f00102" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_103.jpg" filter="nearest">
+        <area name="bg-f00103" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_104.jpg" filter="nearest">
+        <area name="bg-f00104" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_105.jpg" filter="nearest">
+        <area name="bg-f00105" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_106.jpg" filter="nearest">
+        <area name="bg-f00106" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_107.jpg" filter="nearest">
+        <area name="bg-f00107" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_108.jpg" filter="nearest">
+        <area name="bg-f00108" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_109.jpg" filter="nearest">
+        <area name="bg-f00109" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_110.jpg" filter="nearest">
+        <area name="bg-f00110" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_111.jpg" filter="nearest">
+        <area name="bg-f00111" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_112.jpg" filter="nearest">
+        <area name="bg-f00112" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_113.jpg" filter="nearest">
+        <area name="bg-f00113" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_114.jpg" filter="nearest">
+        <area name="bg-f00114" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_115.jpg" filter="nearest">
+        <area name="bg-f00115" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_116.jpg" filter="nearest">
+        <area name="bg-f00116" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_117.jpg" filter="nearest">
+        <area name="bg-f00117" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_118.jpg" filter="nearest">
+        <area name="bg-f00118" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_119.jpg" filter="nearest">
+        <area name="bg-f00119" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_120.jpg" filter="nearest">
+        <area name="bg-f00120" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_121.jpg" filter="nearest">
+        <area name="bg-f00121" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_122.jpg" filter="nearest">
+        <area name="bg-f00122" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_123.jpg" filter="nearest">
+        <area name="bg-f00123" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_124.jpg" filter="nearest">
+        <area name="bg-f00124" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_125.jpg" filter="nearest">
+        <area name="bg-f00125" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_126.jpg" filter="nearest">
+        <area name="bg-f00126" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_127.jpg" filter="nearest">
+        <area name="bg-f00127" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_128.jpg" filter="nearest">
+        <area name="bg-f00128" xywh="*"/>
+    </images>
+    <images file="../anim/Snorlax_129.jpg" filter="nearest">
+        <area name="bg-f00129" xywh="*"/>
+    </images>
+    <images>
+        <animation name="Snorlax Animation" timeSource="enabled">
+		    <frame ref="bg-f00000" duration="53"/>
+            <frame ref="bg-f00001" duration="53"/>
+            <frame ref="bg-f00002" duration="53"/>
+            <frame ref="bg-f00003" duration="53"/>
+            <frame ref="bg-f00004" duration="53"/>
+            <frame ref="bg-f00005" duration="53"/>
+            <frame ref="bg-f00006" duration="53"/>
+            <frame ref="bg-f00007" duration="53"/>
+            <frame ref="bg-f00008" duration="53"/>
+            <frame ref="bg-f00009" duration="53"/>
+            <frame ref="bg-f00010" duration="53"/>
+            <frame ref="bg-f00011" duration="53"/>
+            <frame ref="bg-f00012" duration="53"/>
+            <frame ref="bg-f00013" duration="53"/>
+            <frame ref="bg-f00014" duration="53"/>
+            <frame ref="bg-f00015" duration="53"/>
+            <frame ref="bg-f00016" duration="53"/>
+            <frame ref="bg-f00017" duration="53"/>
+            <frame ref="bg-f00018" duration="53"/>
+            <frame ref="bg-f00019" duration="53"/>
+            <frame ref="bg-f00020" duration="53"/>
+            <frame ref="bg-f00021" duration="53"/>
+            <frame ref="bg-f00022" duration="53"/>
+            <frame ref="bg-f00023" duration="53"/>
+            <frame ref="bg-f00024" duration="53"/>
+            <frame ref="bg-f00025" duration="53"/>
+            <frame ref="bg-f00026" duration="53"/>
+            <frame ref="bg-f00027" duration="53"/>
+            <frame ref="bg-f00028" duration="53"/>
+            <frame ref="bg-f00029" duration="53"/>
+            <frame ref="bg-f00030" duration="53"/>
+            <frame ref="bg-f00031" duration="53"/>
+            <frame ref="bg-f00032" duration="53"/>
+            <frame ref="bg-f00033" duration="53"/>
+            <frame ref="bg-f00034" duration="53"/>
+            <frame ref="bg-f00035" duration="53"/>
+            <frame ref="bg-f00036" duration="53"/>
+            <frame ref="bg-f00037" duration="53"/>
+            <frame ref="bg-f00038" duration="53"/>
+            <frame ref="bg-f00039" duration="53"/>
+            <frame ref="bg-f00040" duration="53"/>
+            <frame ref="bg-f00041" duration="53"/>
+            <frame ref="bg-f00042" duration="53"/>
+            <frame ref="bg-f00043" duration="53"/>
+            <frame ref="bg-f00044" duration="53"/>
+            <frame ref="bg-f00045" duration="53"/>
+            <frame ref="bg-f00046" duration="53"/>
+            <frame ref="bg-f00047" duration="53"/>
+            <frame ref="bg-f00048" duration="53"/>
+            <frame ref="bg-f00049" duration="53"/>
+            <frame ref="bg-f00050" duration="53"/>
+            <frame ref="bg-f00051" duration="53"/>
+            <frame ref="bg-f00052" duration="53"/>
+            <frame ref="bg-f00053" duration="53"/>
+            <frame ref="bg-f00054" duration="53"/>
+            <frame ref="bg-f00055" duration="53"/>
+            <frame ref="bg-f00056" duration="53"/>
+            <frame ref="bg-f00057" duration="53"/>
+            <frame ref="bg-f00058" duration="53"/>
+            <frame ref="bg-f00059" duration="53"/>
+            <frame ref="bg-f00060" duration="53"/>
+            <frame ref="bg-f00061" duration="53"/>
+            <frame ref="bg-f00062" duration="53"/>
+            <frame ref="bg-f00063" duration="53"/>
+            <frame ref="bg-f00064" duration="53"/>
+            <frame ref="bg-f00065" duration="53"/>
+            <frame ref="bg-f00066" duration="53"/>
+            <frame ref="bg-f00067" duration="53"/>
+            <frame ref="bg-f00068" duration="53"/>
+            <frame ref="bg-f00069" duration="53"/>
+            <frame ref="bg-f00070" duration="53"/>
+            <frame ref="bg-f00071" duration="53"/>
+            <frame ref="bg-f00072" duration="53"/>
+            <frame ref="bg-f00073" duration="53"/>
+            <frame ref="bg-f00074" duration="53"/>
+            <frame ref="bg-f00075" duration="53"/>
+            <frame ref="bg-f00076" duration="53"/>
+            <frame ref="bg-f00077" duration="53"/>
+            <frame ref="bg-f00078" duration="53"/>
+            <frame ref="bg-f00079" duration="53"/>
+            <frame ref="bg-f00080" duration="53"/>
+            <frame ref="bg-f00081" duration="53"/>
+            <frame ref="bg-f00082" duration="53"/>
+            <frame ref="bg-f00083" duration="53"/>
+            <frame ref="bg-f00084" duration="53"/>
+            <frame ref="bg-f00085" duration="53"/>
+            <frame ref="bg-f00086" duration="53"/>
+            <frame ref="bg-f00087" duration="53"/>
+            <frame ref="bg-f00088" duration="53"/>
+            <frame ref="bg-f00089" duration="53"/>
+            <frame ref="bg-f00090" duration="53"/>
+            <frame ref="bg-f00091" duration="53"/>
+            <frame ref="bg-f00092" duration="53"/>
+            <frame ref="bg-f00093" duration="53"/>
+            <frame ref="bg-f00094" duration="53"/>
+            <frame ref="bg-f00095" duration="53"/>
+            <frame ref="bg-f00096" duration="53"/>
+            <frame ref="bg-f00097" duration="53"/>
+            <frame ref="bg-f00098" duration="53"/>
+            <frame ref="bg-f00099" duration="53"/>
+            <frame ref="bg-f00100" duration="53"/>
+            <frame ref="bg-f00101" duration="53"/>
+            <frame ref="bg-f00102" duration="53"/>
+            <frame ref="bg-f00103" duration="53"/>
+            <frame ref="bg-f00104" duration="53"/>
+            <frame ref="bg-f00105" duration="53"/>
+            <frame ref="bg-f00106" duration="53"/>
+            <frame ref="bg-f00107" duration="53"/>
+            <frame ref="bg-f00108" duration="53"/>
+            <frame ref="bg-f00109" duration="53"/>
+            <frame ref="bg-f00110" duration="53"/>
+            <frame ref="bg-f00111" duration="53"/>
+            <frame ref="bg-f00112" duration="53"/>
+            <frame ref="bg-f00113" duration="53"/>
+            <frame ref="bg-f00114" duration="53"/>
+            <frame ref="bg-f00115" duration="53"/>
+            <frame ref="bg-f00116" duration="53"/>
+            <frame ref="bg-f00117" duration="53"/>
+            <frame ref="bg-f00118" duration="53"/>
+            <frame ref="bg-f00119" duration="53"/>
+            <frame ref="bg-f00120" duration="53"/>
+            <frame ref="bg-f00121" duration="53"/>
+            <frame ref="bg-f00122" duration="53"/>
+            <frame ref="bg-f00123" duration="53"/>
+            <frame ref="bg-f00124" duration="53"/>
+            <frame ref="bg-f00125" duration="53"/>
+            <frame ref="bg-f00126" duration="53"/>
+            <frame ref="bg-f00127" duration="53"/>
+            <frame ref="bg-f00128" duration="53"/>
+            <frame ref="bg-f00129" duration="53"/>
+    </animation>
+    </images>
+	<theme name="logingui" ref="logingui">
+    <param name="background"><constant>select_animation</constant></param>
+   	</theme>
+	<theme name="characterselectgui" ref="characterselectgui">
+    <param name="background"><constant>select_animation</constant></param>
+   	</theme>
+    <theme name="queuegui" ref="characterselectgui">
+    <param name="background"><constant>select_animation</constant></param>
+   	</theme>
+
+</themes>
