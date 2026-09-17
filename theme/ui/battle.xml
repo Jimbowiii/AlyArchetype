@@ -81,7 +81,7 @@
 	<theme name="stat-boost" ref="-defaults">
 		<param name="background"><image>none</image></param>
 		<!--<param name="background"><image>battle-ui-green-label</image></param>-->
-		<param name="font"><font>tooltip-font</font></param>
+		<param name="font"><font>battle-stat-boost</font></param>
 		<param name="border"><border>5,5</border></param>
 		<param name="fadeInTime"><int>500</int></param>
 		<param name="fadeDurationShow"><int>200</int></param>
@@ -92,6 +92,7 @@
 
 	<theme name="stat-drop" ref="stat-boost">
 		<param name="background"><image>none</image></param>
+		<param name="font"><font>battle-stat-drop</font></param>
 		<!--<param name="background"><image>battle-ui-orangered-label</image></param>-->
 	</theme>
 

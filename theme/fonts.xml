@@ -187,6 +187,8 @@
 	</fontDef>
 	<fontDef name="pb-dark-red" ref="pb-dark" color="#fc6a78"/>
 	<fontDef name="tooltip-font" filename="fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#20242A" kerning="true" hinting="AutoSlight" size="11" size_cjk="11" shadow_color="#20FFFFFF" shadow_offset_x="1" shadow_offset_y="1"/>
+	<fontDef name="battle-stat-boost" ref="tooltip-font" color="#39FF14" border_width="0.8" border_color="#000000" shadow_color="#B0000000" shadow_offset_x="1" shadow_offset_y="1"/>
+	<fontDef name="battle-stat-drop" ref="tooltip-font" color="#FF3030" border_width="0.8" border_color="#000000" shadow_color="#B0000000" shadow_offset_x="1" shadow_offset_y="1"/>
 	<fontDef name="tooltip-font-markup" filename="fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="#20242A" kerning="true" hinting="AutoSlight" size="11" size_cjk="11" shadow_color="#20FFFFFF" shadow_offset_x="1" shadow_offset_y="1" markup="true"/>
 	<fontDef name="pb-dark-link" ref="pb-dark" color="#434343"/>
 	<fontDef name="pb-tab" ref="alphabeta" color="font-button-color">
