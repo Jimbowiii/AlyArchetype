@@ -30,28 +30,40 @@ jobs:
           set -euo pipefail
           VERSION="$(tr -d '\r\n[:space:]' < version.txt)"
           [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || {
-            echo "::error::version.txt must contain a version like 1.0.4."
+            echo "::error::version.txt must contain a version like 1.2.1."
             exit 1
           }
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
           echo "tag=v$VERSION" >> "$GITHUB_OUTPUT"
 
-      - name: Check that release does not already exist
-        id: existing
+      - name: Check release state
+        id: release_state
         shell: bash
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          set -euo pipefail
           TAG="${{ steps.version.outputs.tag }}"
+
           if gh release view "$TAG" >/dev/null 2>&1; then
-            echo "exists=true" >> "$GITHUB_OUTPUT"
-            echo "Release $TAG already exists."
+            IS_DRAFT="$(gh release view "$TAG" --json isDraft --jq '.isDraft')"
+            if [[ "$IS_DRAFT" == "true" ]]; then
+              echo "published=false" >> "$GITHUB_OUTPUT"
+              echo "draft=true" >> "$GITHUB_OUTPUT"
+              echo "Draft release $TAG found: it will be resumed."
+            else
+              echo "published=true" >> "$GITHUB_OUTPUT"
+              echo "draft=false" >> "$GITHUB_OUTPUT"
+              echo "Release $TAG is already published. Nothing to do."
+            fi
           else
-            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "published=false" >> "$GITHUB_OUTPUT"
+            echo "draft=false" >> "$GITHUB_OUTPUT"
+            echo "No release found for $TAG."
           fi
 
       - name: Validate required files
-        if: steps.existing.outputs.exists != 'true'
+        if: steps.release_state.outputs.published != 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -66,42 +78,59 @@ jobs:
           done
 
       - name: Extract release notes from CHANGELOG
-        if: steps.existing.outputs.exists != 'true'
+        if: steps.release_state.outputs.published != 'true'
         shell: bash
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
         run: |
           set -euo pipefail
-          VERSION="${{ steps.version.outputs.version }}"
-          awk -v version="$VERSION" '
-            $0 ~ "^## \\[" version "\\]" { found=1; next }
-            found && /^## \[/ { exit }
-            found { print }
-          ' CHANGELOG.md > release-notes.md
+          python3 - <<'PY'
+          import os
+          import pathlib
+          import re
+          import sys
 
-          if ! grep -q '[^[:space:]]' release-notes.md; then
-            echo "::error::No CHANGELOG section found for [$VERSION]."
-            exit 1
-          fi
+          version = os.environ["VERSION"]
+          text = pathlib.Path("CHANGELOG.md").read_text(encoding="utf-8-sig")
 
-          echo "Release notes:"
-          cat release-notes.md
+          pattern = re.compile(
+              rf"(?ms)^#+[ \t]*\[{re.escape(version)}\][ \t]*\r?\n"
+              rf"(.*?)"
+              rf"(?=^#+[ \t]*\[\d+\.\d+\.\d+\][ \t]*\r?$|\Z)"
+          )
+
+          match = pattern.search(text)
+          if not match or not match.group(1).strip():
+              print(f"::error::No CHANGELOG section found for [{version}].")
+              sys.exit(1)
+
+          notes = match.group(1).strip() + "\n"
+          pathlib.Path("release-notes.md").write_text(notes, encoding="utf-8")
+          print(notes)
+          PY
 
       - name: Build AlyArchetype.zip
-        if: steps.existing.outputs.exists != 'true'
+        if: steps.release_state.outputs.published != 'true'
         shell: bash
         run: |
           set -euo pipefail
+          rm -rf dist
           mkdir -p dist/theme-package
           cp -a sprites Strings theme dist/theme-package/
           cp icon.png info.xml version.txt dist/theme-package/
           (cd dist/theme-package && zip -r ../AlyArchetype.zip .)
 
           ZIP_VERSION="$(unzip -p dist/AlyArchetype.zip version.txt | tr -d '\r\n[:space:]')"
-          [[ "$ZIP_VERSION" == "${{ steps.version.outputs.version }}" ]] || exit 1
+          [[ "$ZIP_VERSION" == "${{ steps.version.outputs.version }}" ]] || {
+            echo "::error::Version inside AlyArchetype.zip does not match version.txt."
+            exit 1
+          }
+
           unzip -Z1 dist/AlyArchetype.zip | grep -Fxq "info.xml"
           unzip -Z1 dist/AlyArchetype.zip | grep -Fxq "version.txt"
 
       - name: Build AlyArchetype-Updater.zip
-        if: steps.existing.outputs.exists != 'true'
+        if: steps.release_state.outputs.published != 'true'
         shell: bash
         run: |
           set -euo pipefail
@@ -111,12 +140,13 @@ jobs:
           cp updater/AlyArchetype.ico dist/updater-package/
           (cd dist/updater-package && zip -r ../AlyArchetype-Updater.zip .)
 
-      - name: Create version tag
-        if: steps.existing.outputs.exists != 'true'
+      - name: Create or verify version tag
+        if: steps.release_state.outputs.published != 'true'
         shell: bash
         run: |
           set -euo pipefail
           TAG="${{ steps.version.outputs.tag }}"
+
           if git ls-remote --exit-code --tags origin "refs/tags/$TAG" >/dev/null 2>&1; then
             echo "Tag $TAG already exists."
           else
@@ -124,20 +154,136 @@ jobs:
             git push origin "$TAG"
           fi
 
+      - name: Create or resume draft release
+        if: steps.release_state.outputs.published != 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="${{ steps.version.outputs.tag }}"
+          VERSION="${{ steps.version.outputs.version }}"
+
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            IS_DRAFT="$(gh release view "$TAG" --json isDraft --jq '.isDraft')"
+            [[ "$IS_DRAFT" == "true" ]] || {
+              echo "::error::Release $TAG exists and is already published."
+              exit 1
+            }
+
+            echo "Resuming existing draft $TAG."
+            gh release edit "$TAG" \
+              --title "AlyArchetype v${VERSION}" \
+              --notes-file release-notes.md
+          else
+            echo "Creating draft release $TAG."
+            gh release create "$TAG" \
+              --draft \
+              --verify-tag \
+              --title "AlyArchetype v${VERSION}" \
+              --notes-file release-notes.md
+          fi
+
+      - name: Upload release assets with retry
+        if: steps.release_state.outputs.published != 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="${{ steps.version.outputs.tag }}"
+
+          asset_exists() {
+            local name="$1"
+            gh release view "$TAG" --json assets \
+              --jq '.assets[].name' | grep -Fxq "$name"
+          }
+
+          upload_with_retry() {
+            local file="$1"
+            local name
+            name="$(basename "$file")"
+
+            if asset_exists "$name"; then
+              echo "✅ $name already exists on the draft; keeping it."
+              return 0
+            fi
+
+            for attempt in 1 2 3 4 5; do
+              echo "⬆️ Uploading $name (attempt $attempt/5)..."
+
+              if gh release upload "$TAG" "$file"; then
+                echo "✅ Uploaded $name."
+                return 0
+              fi
+
+              # GitHub can occasionally finish an upload even if the client
+              # receives an error response. Check before retrying.
+              if asset_exists "$name"; then
+                echo "✅ $name is present despite the upload error."
+                return 0
+              fi
+
+              if [[ "$attempt" -lt 5 ]]; then
+                WAIT=$((attempt * 20))
+                echo "Upload failed; retrying in ${WAIT}s..."
+                sleep "$WAIT"
+              fi
+            done
+
+            echo "::error::Unable to upload $name after 5 attempts."
+            return 1
+          }
+
+          # Small asset first, then the large theme archive.
+          upload_with_retry "dist/AlyArchetype-Updater.zip"
+          upload_with_retry "dist/AlyArchetype.zip"
+
+      - name: Verify release assets
+        if: steps.release_state.outputs.published != 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="${{ steps.version.outputs.tag }}"
+
+          ASSETS="$(gh release view "$TAG" --json assets --jq '.assets[].name')"
+          echo "$ASSETS"
+
+          grep -Fxq "AlyArchetype.zip" <<< "$ASSETS" || {
+            echo "::error::AlyArchetype.zip is missing from the release."
+            exit 1
+          }
+
+          grep -Fxq "AlyArchetype-Updater.zip" <<< "$ASSETS" || {
+            echo "::error::AlyArchetype-Updater.zip is missing from the release."
+            exit 1
+          }
+
+          echo "✅ Both required assets are present."
+
       - name: Publish GitHub Release
-        if: steps.existing.outputs.exists != 'true'
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ steps.version.outputs.tag }}
-          name: AlyArchetype v${{ steps.version.outputs.version }}
-          body_path: release-notes.md
-          files: |
-            dist/AlyArchetype.zip
-            dist/AlyArchetype-Updater.zip
-          fail_on_unmatched_files: true
+        if: steps.release_state.outputs.published != 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG="${{ steps.version.outputs.tag }}"
+
+          gh release edit "$TAG" --draft=false --latest
+
+          IS_DRAFT="$(gh release view "$TAG" --json isDraft --jq '.isDraft')"
+          [[ "$IS_DRAFT" == "false" ]] || {
+            echo "::error::Release $TAG is still a draft."
+            exit 1
+          }
+
+          echo "✅ Release $TAG published."
 
       - name: Announce release on Discord
-        if: steps.existing.outputs.exists != 'true'
+        if: steps.release_state.outputs.published != 'true'
         shell: bash
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
@@ -177,4 +323,3 @@ jobs:
             -X POST \
             -d "$PAYLOAD" \
             "${DISCORD_WEBHOOK_URL}?thread_id=${THREAD_ID}&wait=true"
-
