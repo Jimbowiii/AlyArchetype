@@ -135,3 +135,44 @@ jobs:
             dist/AlyArchetype.zip
             dist/AlyArchetype-Updater.zip
           fail_on_unmatched_files: true
+
+      - name: Announce release on Discord
+        if: steps.existing.outputs.exists != 'true'
+        shell: bash
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          set -euo pipefail
+
+          VERSION="${{ steps.version.outputs.version }}"
+          TAG="${{ steps.version.outputs.tag }}"
+          THREAD_ID="1538478149875146762"
+          RELEASE_URL="https://github.com/${GITHUB_REPOSITORY}/releases/tag/${TAG}"
+          THEME_URL="https://github.com/${GITHUB_REPOSITORY}/releases/latest/download/AlyArchetype.zip"
+          UPDATER_URL="https://github.com/${GITHUB_REPOSITORY}/releases/latest/download/AlyArchetype-Updater.zip"
+
+          NOTES="$(cat release-notes.md)"
+          NOTES="${NOTES:0:1200}"
+
+          MESSAGE=$(cat <<EOF
+          **AlyArchetype v${VERSION} est disponible ! ✨**
+
+          **Nouveautés**
+          ${NOTES}
+
+          **Téléchargements**
+          🎨 AlyArchetype : ${THEME_URL}
+          🔄 AlyArchetype Updater : ${UPDATER_URL}
+
+          🔗 Release GitHub : ${RELEASE_URL}
+          EOF
+          )
+
+          PAYLOAD="$(jq -n --arg content "$MESSAGE" '{content: $content}')"
+
+          curl --fail-with-body \
+            -H "Content-Type: application/json" \
+            -X POST \
+            -d "$PAYLOAD" \
+            "${DISCORD_WEBHOOK_URL}?thread_id=${THREAD_ID}&wait=true"
+
