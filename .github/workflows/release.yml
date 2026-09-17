@@ -154,21 +154,21 @@ jobs:
           NOTES="$(cat release-notes.md)"
           NOTES="${NOTES:0:1200}"
 
-MESSAGE=$(cat <<EOF
-# **AlyArchetype v${VERSION} est disponible ! ✨**
+          MESSAGE=$(cat <<EOF
+          # **AlyArchetype v${VERSION} est disponible ! ✨**
 
-${NOTES}
+          ${NOTES}
 
-> **🔄 Double-clique sur l'Updater pour mettre ton thème à jour !**
-> 📌 Tuto d'installation disponible dans le message épinglé.
+          > **🔄 Double-clique sur l'Updater pour mettre ton thème à jour !**
+          > 📌 Tuto d'installation disponible dans le message épinglé.
 
-# **Téléchargements**
-> 🎨 AlyArchetype : ${THEME_URL}
-> 🔄 AlyArchetype Updater : ${UPDATER_URL}
+          # **Téléchargements**
+          > 🎨 AlyArchetype : ${THEME_URL}
+          > 🔄 AlyArchetype Updater : ${UPDATER_URL}
 
-🔗 Release GitHub : ${RELEASE_URL}
-EOF
-)
+          🔗 Release GitHub : ${RELEASE_URL}
+          EOF
+          )
 
           PAYLOAD="$(jq -n --arg content "$MESSAGE" '{content: $content}')"
 
