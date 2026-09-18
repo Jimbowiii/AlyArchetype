@@ -2,11 +2,11 @@
 
 Toutes les modifications importantes d'AlyArchetype sont répertoriées ici.
 
-## [1.2.2]
+## [1.2.3]
 
 ### Nouveautés
 
-* Amélioration de l'affichage des baisses et augmentations de stats en combat.
-
+* Amélioration visuelle de la barre de rccourcis.
+* Amélioration des strings.
 
 
