@@ -2,7 +2,7 @@
 
 Toutes les modifications importantes d'AlyArchetype sont répertoriées ici.
 
-## [1.2.3]
+## [1.2.4]
 
 ### Nouveautés
 

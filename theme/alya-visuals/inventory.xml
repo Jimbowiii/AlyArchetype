@@ -183,9 +183,7 @@
       <param name="minHeight"><int>21</int></param>
       <param name="textAlignment"><enum type="alignment">CENTER</enum></param>
     </theme>
-    <theme name="pager-down" ref="pager-up">
-      <param name="overlay"><image>ui-sort-desc.background</image></param>
-    </theme>
+    <theme name="pager-down" ref="pager-up"/>
 	</theme>
 	<theme name="hotkeybar-frame-visible" ref="hotkeybar-frame">
 		<param name="background"><image>none</image></param>	
