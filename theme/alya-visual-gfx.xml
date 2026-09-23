@@ -459,12 +459,15 @@
 		<area name="icon.colorwheel" xywh="16,0,16,16" center="true" />
 	</images>
 	<images file="effectivity_buttons_lang" filter="nearest">
-		<area name="eff.status" xywh="12,107,104,18" />
-		<area name="eff.immune" xywh="12,59,104,18" />
-		<area name="eff.se" xywh="12,2,104,18" />
-		<area name="eff.e" xywh="12,21,104,18" />
-		<area name="eff.nve" xywh="12,39,104,18" />
-		<area name="eff.bg" xywh="12,83,104,18" />
+		<!-- V8: preserve Alya artwork but translate the entire effectiveness badge +105px right.
+		     Left +105 / right -105 keeps the logical 104px width unchanged. This mirrors the
+		     native right-side placement (x=110 instead of x=5) without touching PP/layout code. -->
+		<area name="eff.status" xywh="12,107,104,18" inset="0,85,0,-85" />
+		<area name="eff.immune" xywh="12,59,104,18" inset="0,85,0,-85" />
+		<area name="eff.se" xywh="12,2,104,18" inset="0,85,0,-85" />
+		<area name="eff.e" xywh="12,21,104,18" inset="0,85,0,-85" />
+		<area name="eff.nve" xywh="12,39,104,18" inset="0,85,0,-85" />
+		<area name="eff.bg" xywh="12,83,104,18" inset="0,85,0,-85" />
 		<composed name="eff.nve.background">
 			<alias ref="eff.bg" />
 			<alias ref="eff.nve" />

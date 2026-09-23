@@ -202,6 +202,9 @@
 	<fontDef name="pb-dark-orange" ref="pb-dark" color="#BBBBBB"/>
 	<fontDef name="noto-8pt" filename="fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="font-button-color" border_width="1" border_color="#3f4449" kerning="true" hinting="AutoSlight" size="8" incremental="false" characters="0123456789ABCDEF"/>
 	<fontDef name="mechabold" filename="fonts/NotoSansCJK-Medium.ttc" faces="sc,tc,jp" color="font-button-color" kerning="true" hinting="AutoSlight" size="11.7" size_cjk="11.7"/>
+	<!-- Town Map location label only: total +30 px right, +5 px down. HUD text is unaffected.
+	     Uses the heaviest built-in font available in the theme for a darker fantasy look. -->
+	<fontDef name="townmap-location" filename="fonts/EBGaramond12-Regular.ttf" color="#16110d" kerning="true" hinting="AutoSlight" size="15.0" offsetX="30" offsetY="8" shadow_color="#806b4d2f" shadow_offset_x="1" shadow_offset_y="1"/>
 	<fontDef name="mechabold-red" ref="mechabold" color="#F09999" />
 	<fontDef name="mechabold-orange" ref="mechabold" color="alya-chat-shout-color"/>
 	<fontDef name="mechabold-green" ref="mechabold" color="#9BFF9B" />

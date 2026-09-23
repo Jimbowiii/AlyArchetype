@@ -4,6 +4,8 @@
 	<theme name="town-map" ref="temkarta">
 		<param name="border"><border>0</border></param>
 		<theme name="dialoglayout" ref="dialoglayout">
+			<!-- Johto HD underlay: background of the map content layer, not of the outer town-map window. -->
+			<param name="background"><image>TownMap-Johto-HD-Underlay</image></param>
 			<param name="border"><border>36,0,0,0</border></param>
           <!-- invisible button used for switching maps / can be overriden here -->
           <theme name="switch-map" ref="-defaults">
@@ -56,7 +58,7 @@
             </param>
             <theme name="townmap-label" ref="-defaults" allowWildcard="true">
               <param name="font">
-                <font>mechabold</font>
+                <font>townmap-location</font>
               </param>
               <param name="border">
                 <border>0</border>

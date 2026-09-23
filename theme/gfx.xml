@@ -1111,11 +1111,11 @@
   </images>
 
   <images file="effectivity_buttons_lang" filter="linear">
-    <area name="eff.status" xywh="0,0,49,14" inset="2,143,2,-88"/>
-    <area name="eff.immune" xywh="0,20,49,14" inset="2,143,2,-88"/>
-    <area name="eff.nve" xywh="0,40,49,14" inset="2,143,2,-88"/>
-    <area name="eff.e" xywh="0,60,49,14" inset="2,143,2,-88" tint="#3c494d"/>
-    <area name="eff.se" xywh="0,80,49,14" inset="2,143,2,-88"/>
+    <area name="eff.status" xywh="0,0,49,14" inset="2,123,2,-68"/>
+    <area name="eff.immune" xywh="0,20,49,14" inset="2,123,2,-68"/>
+    <area name="eff.nve" xywh="0,40,49,14" inset="2,123,2,-68"/>
+    <area name="eff.e" xywh="0,60,49,14" inset="2,123,2,-68" tint="#3c494d"/>
+    <area name="eff.se" xywh="0,80,49,14" inset="2,123,2,-68"/>
 
     <composed name="eff.status.background">
       <composed tint="#63c297" inset="0,141,0,-90">
@@ -2338,4 +2338,10 @@
     <area name="counter-theme-expanded" xywh="*" inset="-17,-17,0,0" />
   </images>
 
+
+
+  <!-- AlyArchetype Johto HD underlay: 36px transparent header + 768x480 map area. -->
+  <images file="res/custom/map/TownMap-Johto-HD-Underlay-768x516.png" filter="linear">
+    <area name="TownMap-Johto-HD-Underlay" xywh="*"/>
+  </images>
 </themes>
